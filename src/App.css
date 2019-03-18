@@ -1,33 +1,152 @@
-.App {
+.header {
+  color: #99ff33;
+  font-family: monospace;
+  font-size: 50px;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAkSp5F4D4KOT7OzFgD2r3j1fHeGPILqRp4KrhWSTq8AVPqcK6jw");
+  background-size: 100%;
+  /* front-size: 20px; */
+}
+.portfolio {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  font-family: monospace
+}
+
+.nav-bar {
+  font-size: 100px;
+}
+
+.landing-grid {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAkSp5F4D4KOT7OzFgD2r3j1fHeGPILqRp4KrhWSTq8AVPqcK6jw");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.projects-grid {
+  display: flex;
+  text-align: center;
+  min-width: 450;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: #e1e1e6;
+  color: black;
+  padding: 2em;
+  border-radius: 3%;
+  /* border: solid 1px black; */
+}
+.nav {
+  font-size: 4px
+}
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+
+/* contact page css */
+
+.avatar-img {
+  height: 280px;
+  padding-top: 4em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .65;
+  width: 78%;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Typewriter', serif;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+}
+
+.card {
+  margin-top: 20px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-title {
+  text-align: center;
+  /* background: url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover; */
+  height: 176px;
 }

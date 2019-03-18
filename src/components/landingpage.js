@@ -1,0 +1,51 @@
+import React, { Component } from 'react';
+import { Grid, Cell } from 'react-mdl';
+
+class Landing extends Component {
+  render() {
+    return(
+
+      <div>
+        <Grid className="landing-grid">
+          <Cell col={12}>
+            <img
+              src="https://render.bitstrips.com/v2/cpanel/76c3b171-f0cf-4dd6-b91f-91bd86693f61-1fa32da0-5aca-4ce8-a6b7-9e5d9dce98da-v1.png?transparent=1&palette=1"
+              alt="avatar"
+              className="avatar-img"
+              />
+
+            <div className="banner-text">
+              <h1>Justin Garcia</h1>
+              <h1>Full Stack Web Developer</h1>
+              <p>HTML/CSS | Bootstrap | JavaScript | React | Ruby on Rails | NodeJS</p>
+              <div className="social-links">
+                {/* LinkedIn */}
+                <a href="https://linkedin.com/in/just-g-garcia" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                </a>
+
+                {/* Github */}
+                <a href="https://github.com/justgarcia5" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-github-square" aria-hidden="true" />
+                </a>
+
+                {/* Freecodecamp */}
+                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-free-code-camp" aria-hidden="true" />
+                </a>
+
+                {/* Youtube */}
+                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-instagram" aria-hidden="true" />
+                </a>
+              </div>
+            </div>
+          </Cell>
+        </Grid>
+        <hr />
+      </div>
+    )
+  }
+}
+
+export default Landing;
