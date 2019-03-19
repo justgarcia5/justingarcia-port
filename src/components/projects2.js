@@ -32,7 +32,7 @@ class Projects2 extends React.Component {
             <img src={tictactoe} alt="tic-tac-toe-image" />
 
           <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            During my time as a student at the Learn Academy web developement bootcamp, this was one of the first projects I did using React.
           </CardText>
           <CardActions border>
           <a href="https://github.com/justgarcia5/tic-tac-toe" >
@@ -48,7 +48,7 @@ class Projects2 extends React.Component {
             <img src={toolShare2} alt="toolshare-img"/>
 
           <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            Towards the end of my time at Learn Academy web developement bootcamp, myself and three other students completed this ToolShare app for our final project. It implemented all of the skills aquired over the three month of the program.
           </CardText>
           <CardActions border>
           <a href="https://github.com/team-pacific-drive/ToolShare" >
@@ -82,7 +82,7 @@ class Projects2 extends React.Component {
             <h3>Weather App</h3>
           </div>
           <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+
           </CardText>
           <CardActions border>
           <a href="https://github.com/justgarcia5/weather_app" >
@@ -140,4 +140,3 @@ class Projects2 extends React.Component {
 }
 
 export default Projects2;
-
