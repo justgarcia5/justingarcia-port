@@ -13,9 +13,9 @@ class App extends Component {
           <Header className="header" title={<Link className="portfolio"  to="/">My Portfolio</Link>} scroll>
             <Navigation>
               <Link to="/resume">Resume</Link>
-              <Link to="/resume" to="/aboutme">About Me</Link>
-              <Link to="/resume" to="/projects2">Projects</Link>
-              <Link to="/resume" to="/contact">Contact</Link>
+              <Link to="/aboutme" to="/aboutme">About Me</Link>
+              <Link to="/projects2" to="/projects2">Projects</Link>
+              <Link to="/contact" to="/contact">Contact</Link>
             </Navigation>
           </Header>
           <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>}>

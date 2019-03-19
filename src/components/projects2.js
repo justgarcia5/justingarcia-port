@@ -11,6 +11,7 @@ import {
 } from 'react-mdl'
 
 import toolShare2 from '../images/toolShare2.png'
+import tictactoe from '../images/tic-tac-toe2.png'
 
 class Projects2 extends React.Component {
   constructor(props) {
@@ -26,9 +27,10 @@ class Projects2 extends React.Component {
       return(
       <div className="projects-grid">
         <Card className="card" shadow={5}>
-          <div className="card-title">
+
             <h3>Tic-Tac-Toe</h3>
-          </div>
+            <img src={tictactoe} alt="tic-tac-toe-image" />
+
           <CardText>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
           </CardText>
@@ -43,7 +45,7 @@ class Projects2 extends React.Component {
         <Card className="card" shadow={5}>
 
             <h3>ToolShare</h3>
-            <img src={toolShare2} />
+            <img src={toolShare2} alt="toolshare-img"/>
 
           <CardText>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -53,14 +55,14 @@ class Projects2 extends React.Component {
             <Button colored>GitHub</Button>
           </a>
           <a href="https://hidden-tundra-14844.herokuapp.com/account/my_tools" >
-            <Button colored>Live Domo</Button>
+            <Button colored>Live Demo</Button>
           </a>
           </CardActions>
         </Card>
 
         <Card className="card" shadow={5}>
           <div className="card-title">
-            <h3>Tic-Tac-Toe</h3>
+            <h3>Weather App</h3>
           </div>
           <CardText>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -77,13 +79,15 @@ class Projects2 extends React.Component {
       <div className="projects-grid">
         <Card className="card" shadow={5}>
           <div className="card-title">
-            <h3>Ruby on Rails</h3>
+            <h3>Weather App</h3>
           </div>
           <CardText>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
           </CardText>
           <CardActions border>
+          <a href="https://github.com/justgarcia5/weather_app" >
             <Button colored>GitHub</Button>
+          </a>
             <Button colored>Live Demo</Button>
           </CardActions>
         </Card>
