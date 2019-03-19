@@ -25,8 +25,6 @@ class Resume extends Component {
             <p shadow={5}>Highly motivated individual seeking opportunities as a full stack web developer. I like to think of myself as a quick learner, detail-oriented, and a professional with excellent teamwork and communication skills.</p>
             <hr/>
             <div>
-             <h5>Address</h5>
-             <p>4459 Illinois St. San Diego, Ca 92116</p>
              <h5>Phone</h5>
              <p>(530) 417-2205</p>
              <h5>Email</h5>
