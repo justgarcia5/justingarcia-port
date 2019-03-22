@@ -6,6 +6,7 @@ class Contact extends Component {
   render() {
     return(
       <div className="contact-body">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Justin Garcia</h2>
@@ -20,7 +21,6 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr />
-
             <div className="contact-list">
               <List>
                 <ListItem>
@@ -32,8 +32,10 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-envelope" aria-hidden="true"/>
-                    justgarcia5@gmail.com
+
+                      <i className="fa fa-envelope" aria-hidden="true" />
+                      justgarcia5@gmail.com
+
                   </ListItemContent>
                 </ListItem>
 

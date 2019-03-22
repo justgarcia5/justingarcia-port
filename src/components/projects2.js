@@ -12,6 +12,7 @@ import {
 
 import toolShare2 from '../images/toolShare2.png'
 import tictactoe from '../images/tic-tac-toe2.png'
+import weather from '../images/weather.png'
 
 class Projects2 extends React.Component {
   constructor(props) {
@@ -29,16 +30,18 @@ class Projects2 extends React.Component {
         <Card className="card" shadow={5}>
 
             <h3>Tic-Tac-Toe</h3>
-            <img src={tictactoe} alt="tic-tac-toe-image" />
+            <img src={tictactoe} alt="tic-tac-toe" className="project-img"/>
 
           <CardText>
             During my time as a student at the Learn Academy web developement bootcamp, this was one of the first projects I did using React.
           </CardText>
           <CardActions border>
-          <a href="https://github.com/justgarcia5/tic-tac-toe" >
-            <Button colored>GitHub</Button>
-          </a>
-            <Button colored>Live Demo</Button>
+            <a href="https://github.com/justgarcia5/tic-tac-toe" rel="noopener noreferrer" target="_blank">
+              <Button colored>GitHub</Button>
+            </a>
+            <a rel="noopener noreferrer" target="_blank">
+              <Button colored>Live Demo</Button>
+            </a>
           </CardActions>
         </Card>
 
@@ -48,27 +51,30 @@ class Projects2 extends React.Component {
             <img src={toolShare2} alt="toolshare-img"/>
 
           <CardText>
-            Towards the end of my time at Learn Academy web developement bootcamp, myself and three other students completed this ToolShare app for our final project. It implemented all of the skills aquired over the three month of the program.
+            ToolShare was the final project that myself and three other students built at Learn Academy Web Dev bootcamp. It implemented all of the skills aquired over the course of program.
           </CardText>
           <CardActions border>
-          <a href="https://github.com/team-pacific-drive/ToolShare" >
+          <a href="https://github.com/team-pacific-drive/ToolShare" rel="noopener noreferrer" target="_blank">
             <Button colored>GitHub</Button>
           </a>
-          <a href="https://hidden-tundra-14844.herokuapp.com/account/my_tools" >
+          <a href="https://hidden-tundra-14844.herokuapp.com/account/my_tools" rel="noopener noreferrer" target="_blank">
             <Button colored>Live Demo</Button>
           </a>
           </CardActions>
         </Card>
 
         <Card className="card" shadow={5}>
-          <div className="card-title">
+
             <h3>Weather App</h3>
-          </div>
+            <img src={weather} alt="weather" />
+
           <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            This project was an intro to using external API calls and how they work. Enter the city and croutry and find out the weather.
           </CardText>
           <CardActions border>
+          <a href="https://github.com/justgarcia5/weather_app" el="noopener noreferrer" target="_blank">
             <Button colored>GitHub</Button>
+          </a>
             <Button colored>Live Demo</Button>
           </CardActions>
         </Card>
@@ -79,13 +85,13 @@ class Projects2 extends React.Component {
       <div className="projects-grid">
         <Card className="card" shadow={5}>
           <div className="card-title">
-            <h3>Weather App</h3>
+            <h3>Simple App</h3>
           </div>
           <CardText>
 
           </CardText>
           <CardActions border>
-          <a href="https://github.com/justgarcia5/weather_app" >
+          <a href="https://github.com/justgarcia5/weather_app" rel="noopener noreferrer" target="_blank">
             <Button colored>GitHub</Button>
           </a>
             <Button colored>Live Demo</Button>

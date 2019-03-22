@@ -6,6 +6,7 @@ class Landing extends Component {
     return(
 
       <div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
@@ -26,7 +27,7 @@ class Landing extends Component {
 
                 {/* Github */}
                 <a href="https://github.com/justgarcia5" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-github-square" aria-hidden="true" />
+                  <i className="fa fa-github" aria-hidden="true" />
                 </a>
 
                 {/* Freecodecamp */}
@@ -42,7 +43,6 @@ class Landing extends Component {
             </div>
           </Cell>
         </Grid>
-        <hr />
       </div>
     )
   }

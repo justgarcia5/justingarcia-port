@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-import Main from './components/main';
-import { Link } from 'react-router-dom';
+
+import Main from './components/main'
 
 
 class App extends Component {
   render() {
     return (
       <div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+
         <Layout>
           <Header className="header" title={<Link className="portfolio"  to="/">My Portfolio</Link>} scroll>
             <Navigation>
