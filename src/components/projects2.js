@@ -69,7 +69,7 @@ class Projects2 extends React.Component {
             <img src={weather} alt="weather" />
 
           <CardText>
-            This project was an intro to using external API calls and how they work. Enter the city and croutry and find out the weather.
+            This project was an intro to using external API calls and how they work. Enter the city and country and find out the weather.
           </CardText>
           <CardActions border>
           <a href="https://github.com/justgarcia5/weather_app" el="noopener noreferrer" target="_blank">
