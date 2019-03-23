@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
+import Profile2 from '../images/profile2.png';
+
+
 class Landing extends Component {
   render() {
     return(
@@ -10,15 +13,15 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://render.bitstrips.com/v2/cpanel/76c3b171-f0cf-4dd6-b91f-91bd86693f61-1fa32da0-5aca-4ce8-a6b7-9e5d9dce98da-v1.png?transparent=1&palette=1"
-              alt="avatar"
+              src={Profile2}
+              alt="profile-pic"
               className="avatar-img"
               />
 
             <div className="banner-text">
               <h1>Justin Garcia</h1>
-              <h1>Full Stack Web Developer</h1>
-              <p>HTML/CSS | Bootstrap | JavaScript | React | Ruby on Rails | NodeJS</p>
+              <h1>Software Developer</h1>
+              <p>HTML/CSS | Bootstrap | JavaScript | React | Ruby on Rails | NodeJS | PSQL</p>
               <div className="social-links">
                 {/* LinkedIn */}
                 <a href="https://linkedin.com/in/just-g-garcia" rel="noopener noreferrer" target="_blank">
@@ -36,7 +39,7 @@ class Landing extends Component {
                 </a>
 
                 {/* Twitter */}
-                <a href="https://twitter.com/Justin77832726" rel="noopener noreferrer" target="_blank">
+                <a href="https://twitter.com/Justgarcia85" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-twitter" aria-hidden="true" />
                 </a>
               </div>

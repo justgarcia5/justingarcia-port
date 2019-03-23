@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import ProfilePic from '../images/profile_pic.jpg';
 
 
 class Resume extends Component {
@@ -11,11 +12,11 @@ class Resume extends Component {
       <div>
         <Grid>
           <Cell col={4}>
-            <div style={{textAlign: 'center'}}>
+            <div>
               <img
-                src="https://render.bitstrips.com/v2/cpanel/76c3b171-f0cf-4dd6-b91f-91bd86693f61-1fa32da0-5aca-4ce8-a6b7-9e5d9dce98da-v1.png?transparent=1&palette=1"
-                alt="avatar"
-                style={{height: '300px'}}
+                src={ProfilePic}
+                alt="profile-pic"
+                style={{height: '260px'}}
                  />
             </div>
 
@@ -40,13 +41,13 @@ class Resume extends Component {
               startYear={2018}
               endYear={2019}
               schoolName="Learn Academy"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              schoolDescription="LEARN Academy offers the 4-month Rails & Javascript Bootcamp. The program trains students in various industry-leading frameworks and languages, with a concentration on Ruby on Rails. In addition to Ruby, students learn SQL, JavaScript and jQuery. The majority of the bootcamp is spent learning the Rails framework "
             />
             <Education
               startYear={2010}
               endYear={2012}
               schoolName="Sierra College"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              schoolDescription="Completion of 36 credits (Environmental Studies) "
             />
 
             <hr/>
@@ -61,11 +62,19 @@ class Resume extends Component {
             />
 
             <Experience
+              startYear={2018}
+              endYear={2019}
+              jobName="Learn Academy"
+              jobDescription="400 hours of hands on training in web development and problem-solving skills. Experience with mob and paired programing. This exposure allowed a significant improvement with communication skills. "
+            />
+
+            <Experience
               startYear={2012}
               endYear={2018}
               jobName="Aerial Lift Service Co"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              jobDescription="Managed and organized customer repairs by developing a structured system and utilizing this system to efficiently provide a high level of quality repairs in a timely manner. Generated a 25% increase in part sales and equipment sales from the start and end of my role in this position by establishing many strong customer relationships in the greater Sacramento area. "
             />
+
 
             <hr/>
 

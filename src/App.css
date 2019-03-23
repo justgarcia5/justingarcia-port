@@ -89,8 +89,10 @@
 /* contact page css */
 
 .avatar-img {
-  height: 280px;
-  padding-top: 4em;
+  height: 260px;
+  padding-top: 10px;
+  border-radius: 10%;
+  width: 270px;
 }
 
 .banner-text {
