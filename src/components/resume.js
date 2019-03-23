@@ -16,7 +16,7 @@ class Resume extends Component {
               <img
                 src={ProfilePic}
                 alt="profile-pic"
-                style={{height: '260px'}}
+                style={{height: '270px', width: '360px'}}
                  />
             </div>
 
