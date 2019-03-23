@@ -32,14 +32,11 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-
-                      <i className="fa fa-envelope" aria-hidden="true" />
-                      justgarcia5@gmail.com
-
+                    <a href="mailto:justgarcia5@gmail.com" >
+                      <i className="fa fa-envelope" aria-hidden="true" />justgarcia5@gmail.com
+                    </a>
                   </ListItemContent>
                 </ListItem>
-
-
               </List>
             </div>
           </Cell>

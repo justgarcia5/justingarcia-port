@@ -30,9 +30,9 @@ class Landing extends Component {
                   <i className="fa fa-github" aria-hidden="true" />
                 </a>
 
-                {/* Freecodecamp */}
-                <a href="justgarcia5@gmail.com" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-free-code-camp" aria-hidden="true" />
+                {/* Email */}
+                <a href="mailto:justgarcia5@gmail.com" >
+                  <i className="fa fa-envelope" aria-hidden="true" />
                 </a>
 
                 {/* Twitter */}
