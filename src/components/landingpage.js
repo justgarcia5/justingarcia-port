@@ -16,6 +16,7 @@ class Landing extends Component {
               src={Profile2}
               alt="profile-pic"
               className="avatar-img"
+              style={{height: '380px', width: '400px'}}
               />
 
             <div className="banner-text">
