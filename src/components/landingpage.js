@@ -13,11 +13,10 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src={Profile2}
-              alt="profile-pic"
-              className="avatar-img"
-              style={{height: '380px', width: '400px'}}
-              />
+              src="https://render.bitstrips.com/v2/cpanel/76c3b171-f0cf-4dd6-b91f-91bd86693f61-1fa32da0-5aca-4ce8-a6b7-9e5d9dce98da-v1.png?transparent=1&palette=1"
+              style={{height: '250px'}}
+              alt="avatar"
+            />
 
             <div className="banner-text">
               <h1>Justin Garcia</h1>

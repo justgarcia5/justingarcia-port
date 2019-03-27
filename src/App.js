@@ -13,7 +13,7 @@ class App extends Component {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
         <Layout>
-          <Header className="header" title={<Link className="portfolio"  to="/">My Portfolio</Link>} scroll>
+          <Header className="header" title={<Link className="portfolio"  to="/">Justin Garcia</Link>} scroll>
             <Navigation>
               <Link to="/resume">Resume</Link>
               <Link to="/aboutme" to="/aboutme">About Me</Link>

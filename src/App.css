@@ -1,28 +1,30 @@
 .header {
-  color: #99ff33;
   font-family: monospace;
-  font-size: 50px;
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRheddFDwSc_muj80v9J-X3Y_gWb7BoljZ4_ohmJx4oYfhEY4haLw");
-
-}
-.portfolio {
-  text-decoration: none;
-  color: white;
-  font-size: 40px;
-  font-family: monospace
-}
-
-.nav-bar {
-  font-size: 100px;
+  font-size: 20px;
+  background-image: url(./images/bryce2.jpg);
+  background-size: cover;
+  height: auto;
+  /* background-repeat: no-repeat; */
+  /* background-color: rgba(0,0,0,1) */
 }
 
 .landing-grid {
   text-align: center;
   top: 0;
   left: 0;
-  width: 100%;
-  min-height: 100%;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRheddFDwSc_muj80v9J-X3Y_gWb7BoljZ4_ohmJx4oYfhEY4haLw");
+  background-image: url(./images/bryce2.jpg);
+  background-size: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  height: cover;
+  background-repeat: no-repeat;
+}
+
+.portfolio {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: monospace
 }
 
 .projects-grid {
@@ -40,7 +42,7 @@
   background: #e1e1e6;
   color: black;
   padding: 2em;
-  border-radius: 3%;
+  border-radius: 2%;
 }
 .nav {
   font-size: 4px
@@ -88,11 +90,14 @@
 
 /* contact page css */
 
-.avatar-img {
+.profile-img {
   height: 260px;
-  padding-top: 10px;
-  border-radius: 10%;
   width: 270px;
+  height: 380px;
+  width: 400px;
+  border-style: inset;
+  border-width: 8px 20px 8px 20px;
+
 }
 
 .banner-text {

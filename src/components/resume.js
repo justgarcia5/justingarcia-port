@@ -41,13 +41,22 @@ class Resume extends Component {
               startYear={2018}
               endYear={2019}
               schoolName="Learn Academy"
-              schoolDescription="LEARN Academy offers the 4-month Rails & Javascript Bootcamp. The program trains students in various industry-leading frameworks and languages, with a concentration on Ruby on Rails. In addition to Ruby, students learn SQL, JavaScript and jQuery. The majority of the bootcamp is spent learning the Rails framework "
+              schoolDescription={
+                <ul>
+                  <li>LEARN Academy offers the 4-month Rails & Javascript Bootcamp. The program trains students in various industry-leading frameworks and languages, with a concentration on Ruby on Rails</li>
+                  <li>In addition to Ruby, students learn SQL, JavaScript and jQuery. The majority of the bootcamp is spent learning the Rails framework</li>
+                </ul>
+              }
             />
             <Education
               startYear={2010}
               endYear={2012}
               schoolName="Sierra College"
-              schoolDescription="Completion of 36 credits (Environmental Studies) "
+              jobDescription={
+                <ul>
+                  <li>Completion of 36 credits (Environmental Studies)</li>
+                </ul>
+              }
             />
 
             <hr/>
@@ -58,21 +67,37 @@ class Resume extends Component {
               startYear={2019}
               endYear={'Current'}
               jobName="Zeal"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              jobDescription={
+                <ul>
+                  <li>Worked remotely with a team to build an initiative tracker application using Ruby on Rails that will be internally utilized by the Zeal team</li>
+                  <li>Participated and interacted directly with the product owner during IPM’s</li>
+                  <li>Analyzed functional requirements, developed code, and implemented RSpec and Capybara testing on features</li>
+                </ul>
+              }
             />
 
             <Experience
               startYear={2018}
               endYear={2019}
               jobName="Learn Academy"
-              jobDescription="400 hours of hands on training in web development and problem-solving skills. Experience with mob and paired programing. This exposure allowed a significant improvement with communication skills. "
+              jobDescription={
+                <ul>
+                  <li>400 hours of hands on training in web development and problem-solving skills. Experience with mob and paired programing</li>
+                  <li>This exposure allowed a significant improvement with communication skills</li>
+                </ul>
+              }
             />
 
             <Experience
               startYear={2012}
               endYear={2018}
               jobName="Aerial Lift Service Co"
-              jobDescription="Managed and organized customer repairs by developing a structured system and utilizing this system to efficiently provide a high level of quality repairs in a timely manner. Generated a 25% increase in part sales and equipment sales from the start and end of my role in this position by establishing many strong customer relationships in the greater Sacramento area. "
+              jobDescription={
+                <ul>
+                  <li>Managed and organized customer repairs by developing a structured system and utilizing this system to efficiently provide a high level of quality repairs in a timely manner</li>
+                  <li>Generated a 25% increase in part sales and equipment sales from the start and end of my role in this position by establishing many strong customer relationships in the greater Sacramento area</li>
+                </ul>
+              }
             />
 
 
