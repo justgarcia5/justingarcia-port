@@ -6,7 +6,6 @@ class Contact extends Component {
   render() {
     return(
       <div className="contact-body">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Justin Garcia</h2>

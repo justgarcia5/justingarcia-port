@@ -1,30 +1,21 @@
-.header {
-  font-family: monospace;
-  font-size: 20px;
-  background-image: url(./images/bryce2.jpg);
-  background-size: cover;
-  height: auto;
-  /* background-repeat: no-repeat; */
-  /* background-color: rgba(0,0,0,1) */
+.mdl-layout__header-row {
+  background: rgb(24, 24, 24);
 }
 
 .landing-grid {
   text-align: center;
   top: 0;
   left: 0;
-  background-image: url(./images/bryce2.jpg);
-  background-size: 100%;
-  max-width: 100%;
-  max-height: 100%;
-  height: cover;
-  background-repeat: no-repeat;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXvF1GHwG-eDlGjnE_KtKUqRGIDaU00Z_TUhIJ46G-UCMzYnjTsw');
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .portfolio {
   text-decoration: none;
   color: white;
   font-size: 30px;
-  font-family: monospace
+  /* font-family: monospace */
 }
 
 .projects-grid {
@@ -37,17 +28,12 @@
   justify-content: space-around;
 }
 
-/* Resume Page css */
 .resume-right-col {
   background: #e1e1e6;
   color: black;
   padding: 2em;
   border-radius: 2%;
 }
-.nav {
-  font-size: 4px
-}
-/* contact page css */
 
 .contact-body {
   margin: auto;
@@ -101,18 +87,19 @@
 }
 
 .banner-text {
-  background-color: black;
-  opacity: .65;
+  background-color: rgb(5, 51, 94);
+  opacity: .75;
   width: 78%;
   margin: auto;
-  border-radius: 50px;
+  border-width: 5px;
+  border-style: ridge;
+  margin-top: 10%;
 }
 
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
   color: white;
-  font-family: 'Typewriter', serif;
 }
 
 .banner-text hr {
@@ -132,8 +119,7 @@
   justify-content: space-between;
   width: 50%;
   margin: auto;
-  padding-bottom: 20px
-
+  padding: 10%;
 }
 
 .social-links i {
