@@ -5,7 +5,6 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 
 import Main from './components/main'
 
-
 class App extends Component {
   render() {
     return (
@@ -13,15 +12,16 @@ class App extends Component {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
         <Layout>
-          <Header className="header" title={<Link className="portfolio"  to="/">Justin Garcia</Link>} scroll>
+          <Header className="header-links" title={<Link className="justin-header-link"  to="/">Justin Garcia</Link>} scroll>
             <Navigation>
               <Link to="/resume">Resume</Link>
+              <Link to="https://github.com/justgarcia5">GitHub</Link>
               <Link to="/aboutme" to="/aboutme">About Me</Link>
               <Link to="/projects2" to="/projects2">Projects</Link>
               <Link to="/contact" to="/contact">Contact</Link>
             </Navigation>
           </Header>
-          <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Justin Garcia</Link>}>
+          <Drawer className="header-links" title={<Link className="header-links" to="/">Justin Garcia</Link>}>
             <Navigation>
               <Link to="/resume">Resume</Link>
               <Link to="/aboutme">About Me</Link>

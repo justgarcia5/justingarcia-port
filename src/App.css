@@ -1,5 +1,6 @@
 .mdl-layout__header-row {
   background: rgb(24, 24, 24);
+  position: fixed;
 }
 
 .landing-grid {
@@ -11,11 +12,24 @@
   background-position: center;
 }
 
-.portfolio {
+.justin-header-link {
   text-decoration: none;
   color: white;
   font-size: 30px;
-  /* font-family: monospace */
+  font-family: monospace
+}
+
+.header-links {
+  font-family: monospace;
+  text-decoration: none;
+  color: black;
+}
+
+.material-icons {
+  position: fixed;
+  margin-top: 5px;
+  margin-right: 100px;
+  padding-top: 5px;
 }
 
 .projects-grid {
@@ -74,8 +88,6 @@
   padding-right: 5rem;
 }
 
-/* contact page css */
-
 .profile-img {
   height: 260px;
   width: 270px;
@@ -91,15 +103,16 @@
   opacity: .75;
   width: 78%;
   margin: auto;
-  border-width: 5px;
+  border-width: 20px;
   border-style: ridge;
   margin-top: 10%;
 }
 
 .banner-text h1 {
   font-size: 66px;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: white;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 
 .banner-text hr {
@@ -136,4 +149,9 @@
 .card-title {
   text-align: center;
   height: 176px;
+}
+
+.skills {
+  color: white;
+  font-size: 5em;
 }

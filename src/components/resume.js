@@ -52,7 +52,7 @@ class Resume extends Component {
               startYear={2010}
               endYear={2012}
               schoolName="Sierra College"
-              jobDescription={
+              schoolDescription={
                 <ul>
                   <li>Completion of 36 credits (Environmental Studies)</li>
                 </ul>
@@ -119,6 +119,10 @@ class Resume extends Component {
             />
             <Skills
               skill="React"
+              progress={60}
+            />
+              <Skills
+              skill="Ruby on Rails"
               progress={60}
             />
           </Cell>
