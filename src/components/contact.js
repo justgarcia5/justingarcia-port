@@ -24,14 +24,14 @@ class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-phone-square" aria-hidden="true"/>
+                    <i style={{ color: "black" }} className="fa fa-phone-square" aria-hidden="true"/>
                     (530) 417-2205
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <a href="mailto:justgarcia5@gmail.com" >
+                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                    <a  style={{ textDecoration: "none", color: "black" }} href="mailto:justgarcia5@gmail.com" >
                       <i className="fa fa-envelope" aria-hidden="true" />justgarcia5@gmail.com
                     </a>
                   </ListItemContent>

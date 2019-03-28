@@ -15,7 +15,7 @@ class App extends Component {
           <Header className="header-links" title={<Link className="justin-header-link"  to="/">Justin Garcia</Link>} scroll>
             <Navigation>
               <Link to="/resume">Resume</Link>
-              <Link to="https://github.com/justgarcia5">GitHub</Link>
+              <a href="https://github.com/justgarcia5" rel="noopener noreferrer" target="_blank">GitHub</a>
               <Link to="/aboutme" to="/aboutme">About Me</Link>
               <Link to="/projects2" to="/projects2">Projects</Link>
               <Link to="/contact" to="/contact">Contact</Link>
