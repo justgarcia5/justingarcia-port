@@ -29,7 +29,7 @@ class Projects2 extends React.Component {
       <div className="projects-grid">
         <Card className="card" shadow={5}>
 
-            <h3>Tic-Tac-Toe</h3>
+            {/* <h3>Tic-Tac-Toe</h3> */}
             <img src={tictactoe} alt="tic-tac-toe" className="project-img"/>
 
           <CardText>
@@ -47,7 +47,7 @@ class Projects2 extends React.Component {
 
         <Card className="card" shadow={5}>
 
-            <h3>ToolShare</h3>
+            {/* <h3>ToolShare</h3> */}
             <img src={toolShare2} alt="toolshare-img"/>
 
           <CardText>
@@ -65,7 +65,7 @@ class Projects2 extends React.Component {
 
         <Card className="card" shadow={5}>
 
-            <h3>Weather App</h3>
+            {/* <h3>Weather App</h3> */}
             <img src={weather} alt="weather" />
 
           <CardText>

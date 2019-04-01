@@ -16,7 +16,7 @@ class Resume extends Component {
               <img
                 src={ProfilePic}
                 alt="profile-pic"
-                style={{height: '300px', width: '400px'}}
+                style={{height: '350px', width: '460px'}}
                  />
             </div>
 
@@ -99,7 +99,7 @@ class Resume extends Component {
                 </ul>
               }
             />
-
+{/*
 
             <hr/>
 
@@ -124,7 +124,7 @@ class Resume extends Component {
               <Skills
               skill="Ruby on Rails"
               progress={60}
-            />
+            /> */}
           </Cell>
         </Grid>
       </div>

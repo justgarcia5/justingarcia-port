@@ -1,16 +1,17 @@
-import React, { Component } from 'react';
-import { Grid, Cell, ProgressBar } from 'react-mdl';
+import React from 'react';
 
-class Skills extends Component {
-  render() {
-    return(
-      <Grid>
-        <Cell col={12}>
-          <div style={{display: 'flex'}}>{this.props.skill} <ProgressBar style={{margin: 'auto', width: '75%'}} progress={this.props.progress} /> </div>
-        </Cell>
-      </Grid>
-    )
-  }
-}
+const Skills = () => (
+  <div>
+    <h2 className="skills-text">Skills</h2>
+    <div className="skills-icons">
+      <i class="fab fa-css3"></i>
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-bootstrap"></i>
+      <i class="fab fa-js-square"></i>
+      <i class="fab fa-react"></i>
+      <i class="fab fa-node"></i>
+    </div>
+  </div>
+)
 
 export default Skills;
