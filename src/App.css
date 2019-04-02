@@ -1,5 +1,5 @@
 .mdl-layout__header-row {
-  background: rgba(24, 24, 24, 1);
+  background: rgb(14, 13, 13);
   position: fixed;
 }
 
@@ -139,7 +139,6 @@
 }
 
 .card {
-  /* margin-top: 20px; */
   margin: 20px;
   text-align: center;
 }
