@@ -3,6 +3,7 @@ import React from 'react';
 const Skills = () => (
   <div>
     <h2 className="skills-text">Skills</h2>
+    <hr style={{ border: "solid white 2px" }}/>
     <div className="skills-icons">
       <i class="fab fa-css3"></i>
       <i class="fab fa-html5"></i>
