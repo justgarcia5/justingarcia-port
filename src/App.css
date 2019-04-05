@@ -102,6 +102,8 @@
 .banner-text {
   width: 78%;
   margin: auto;
+  background-color: rgb(66, 66, 66);
+  opacity: .80;
 }
 
 .banner-text h1 {
