@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import {
+  Grid,
+  Cell
+} from 'react-mdl';
 
 import Skills from './skills'
 
@@ -7,6 +10,8 @@ class Landing extends Component {
   render() {
     return(
       <div>
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"></link>
+
         <Grid className="landing-grid">
           <Cell col={12}>
             <div className="banner-text">
@@ -15,7 +20,7 @@ class Landing extends Component {
               <Skills className="banner-text"/>
               <h4>HTML/CSS | Bootstrap | JavaScript | React | Ruby on Rails | NodeJS | SQL</h4>
 
-              <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"></link>
+
             </div>
             <div className="border-links">
               <div className="social-links">
@@ -37,9 +42,6 @@ class Landing extends Component {
               </div>
             </div>
           </Cell>
-          {/* <a href="https://docs.google.com/document/d/13VYVpnWbkLAXAEcCJ5KLaFaI5YQghFhmuGtjOVwdXJ8/edit" rel="noopener noreferrer" target="_blank">
-            <i className="fas fa-file-word" style={{fontSize: "50px", textDecoration: "none", color:"white"}} />
-          </a> */}
         </Grid>
       </div>
     )

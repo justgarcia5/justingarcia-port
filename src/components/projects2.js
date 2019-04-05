@@ -13,6 +13,7 @@ import {
 import toolShare2 from '../images/toolShare2.png'
 import tictactoe from '../images/tic-tac-toe2.png'
 import weather from '../images/weather.png'
+import SimpleBlog from '../images/SimpleBlog.png'
 
 class Projects2 extends React.Component {
   constructor(props) {
@@ -84,17 +85,18 @@ class Projects2 extends React.Component {
     return (
       <div className="projects-grid">
         <Card className="card" shadow={5}>
-          <div className="card-title">
-            <h3>Simple App</h3>
-          </div>
+          {/* <div className="card-title"> */}
+            {/* <h3>Blog App</h3> */}
+            <img src={SimpleBlog} alt="blog-screenshot" />
+
+          {/* </div> */}
           <CardText>
 
           </CardText>
           <CardActions border>
-          <a href="https://github.com/justgarcia5/weather_app" rel="noopener noreferrer" target="_blank">
+          <a href="https://github.com/justgarcia5/SimpleBlog" rel="noopener noreferrer" target="_blank">
             <Button colored>GitHub</Button>
           </a>
-            <Button colored>Live Demo</Button>
           </CardActions>
         </Card>
 

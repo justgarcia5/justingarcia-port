@@ -159,12 +159,12 @@
 }
 
 .border-links {
-  border: solid white;
-  background: white;
+  /* border: solid white;
+  background: white; */
   max-width: 100%;
   margin-top: 8%;
   margin-bottom: 5%;
-  opacity: .80;
+  /* opacity: .80; */
 }
 
 .card {
@@ -175,4 +175,22 @@
 .card-title {
   text-align: center;
   height: 176px;
+}
+
+.docs {
+  justify-content: space-between;
+  text-align: center;
+}
+
+.docs a {
+  color: rgb(122, 19, 19);
+  text-decoration: none;
+  font-size: 6em;
+}
+
+.docs p {
+  color: black;
+  text-decoration: none;
+  justify-content: space-between;
+  text-align: center;
 }

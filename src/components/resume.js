@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+
 import Education from './education';
 import Experience from './experience';
 import ProfilePic from '../images/profile_pic.jpg';
-
+import PdfDocs from './pdfDocs'
 
 class Resume extends Component {
   render() {
@@ -18,24 +19,25 @@ class Resume extends Component {
                 style={{height: '350px', width: '460px'}}
                  />
             </div>
-
-            <h2>Justin Garcia</h2>
-            <h4>Programmer</h4>
-            <hr/>
-            <p shadow={5}>Highly motivated individual seeking opportunities as a full stack web developer. I like to think of myself as a quick learner, detail-oriented, and a professional with excellent teamwork and communication skills.</p>
-            <hr/>
             <div>
-             <h5>Phone</h5>
-             <p>(530) 417-2205</p>
-             <h5>Email</h5>
-             <p>justgarcia5@gmail.com</p>
-             <hr/>
+              <h2>Justin Garcia</h2>
+              <h4>Programmer</h4>
+              <hr/>
+              <p shadow={5}>Highly motivated individual seeking opportunities as a full stack web developer. I like to think of myself as a quick learner, detail-oriented, and a professional with excellent teamwork and communication skills.</p>
+              <hr/>
             </div>
+            <div>
+              <h5>Phone</h5>
+              <p>(530) 417-2205</p>
+              <h5>Email</h5>
+              <p>justgarcia5@gmail.com</p>
+              <hr/>
+            </div>
+            <PdfDocs />
           </Cell>
+
           <Cell className="resume-right-col" col={8} shadow={20}>
-
             <h2>Education</h2>
-
             <Education
               startYear={2018}
               endYear={2019}
@@ -98,32 +100,6 @@ class Resume extends Component {
                 </ul>
               }
             />
-{/*
-
-            <hr/>
-
-            <h2>Skills</h2>
-
-            <Skills
-              skill="javascript"
-              progress={80}
-            />
-            <Skills
-              skill="HTML/CSS"
-              progress={80}
-            />
-            <Skills
-              skill="NodeJS"
-              progress={80}
-            />
-            <Skills
-              skill="React"
-              progress={60}
-            />
-              <Skills
-              skill="Ruby on Rails"
-              progress={60}
-            /> */}
           </Cell>
         </Grid>
       </div>
