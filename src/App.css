@@ -1,15 +1,18 @@
 .mdl-layout__header-row {
-  background: rgb(14, 13, 13);
+  /* background: rgb(107, 106, 106); */
   position: fixed;
+  /* opacity: .30; */
+  background-image: url('https://c.pxhere.com/photos/d0/d6/background_tree_wood_boards_texture_wooden_background_old_brown-1370487.jpg!d');
 }
 
 .landing-grid {
   text-align: center;
   top: 0;
   left: 0;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXvF1GHwG-eDlGjnE_KtKUqRGIDaU00Z_TUhIJ46G-UCMzYnjTsw');
+  background-image: url('https://c.pxhere.com/photos/d0/d6/background_tree_wood_boards_texture_wooden_background_old_brown-1370487.jpg!d');
   background-attachment: fixed;
   background-position: center;
+  background-size: 100%;
 }
 
 .justin-header-link {
@@ -98,18 +101,16 @@
 }
 
 .banner-text {
-  background-color: rgb(5, 51, 94);
-  opacity: .85;
   width: 78%;
   margin: auto;
-  margin-top: 10%;
 }
 
 .banner-text h1 {
   font-size: 66px;
+  font: bold;
   color: white;
   font-family: Tahoma, Geneva, sans-serif;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
 }
 
 .banner-text h2 {
@@ -128,7 +129,8 @@
   color: white;
   font-size: 20px;
   padding: 2em;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
+  font-weight: bold;
 }
 
 .banner-text i {
@@ -153,7 +155,6 @@
 .social-links i {
   font-size: 5em;
   width: 40%;
-  z-index: 11;
 }
 
 .border-links {
@@ -162,8 +163,7 @@
   max-width: 100%;
   margin-top: 8%;
   margin-bottom: 5%;
-  opacity: .90;
-  z-index: 9;
+  opacity: .80;
 }
 
 .card {
