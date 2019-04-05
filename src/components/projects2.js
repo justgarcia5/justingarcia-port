@@ -28,8 +28,8 @@ class Projects2 extends React.Component {
       return(
       <div className="projects-grid">
         <Card className="card" shadow={5}>
-
             {/* <h3>Tic-Tac-Toe</h3> */}
+
             <img src={tictactoe} alt="tic-tac-toe" className="project-img"/>
 
           <CardText>
@@ -39,9 +39,9 @@ class Projects2 extends React.Component {
             <a href="https://github.com/justgarcia5/tic-tac-toe" rel="noopener noreferrer" target="_blank">
               <Button colored>GitHub</Button>
             </a>
-            <a rel="noopener noreferrer" target="_blank">
+            {/* <a rel="noopener noreferrer" target="_blank">
               <Button colored>Live Demo</Button>
-            </a>
+            </a> */}
           </CardActions>
         </Card>
 
@@ -72,10 +72,10 @@ class Projects2 extends React.Component {
             This project was an intro to using external API calls and how they work. Enter the city and country and find out the weather.
           </CardText>
           <CardActions border>
-          <a href="https://github.com/justgarcia5/weather_app" el="noopener noreferrer" target="_blank">
+          <a href="https://github.com/justgarcia5/weather_app" rel="noopener noreferrer" target="_blank">
             <Button colored>GitHub</Button>
           </a>
-            <Button colored>Live Demo</Button>
+            {/* <Button colored>Live Demo</Button> */}
           </CardActions>
         </Card>
       </div>

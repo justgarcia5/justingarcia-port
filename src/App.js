@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div>
         <div>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></link>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"></link>
 
 
         <Layout >
@@ -18,7 +18,7 @@ class App extends Component {
             <Navigation >
               <Link to="/resume">Resume</Link>
               <a href="https://github.com/justgarcia5" rel="noopener noreferrer" target="_blank">GitHub</a>
-              <Link to="/aboutme" to="/aboutme">About Me</Link>
+              {/* <Link to="/aboutme" to="/aboutme">About Me</Link> */}
               <Link to="/projects2" to="/projects2">Projects</Link>
               <Link to="/contact" to="/contact">Contact</Link>
             </Navigation>
@@ -27,7 +27,7 @@ class App extends Component {
             <Navigation>
               <Link to="/resume">Resume</Link>
               <a href="https://github.com/justgarcia5" rel="noopener noreferrer" target="_blank">GitHub</a>
-              <Link to="/aboutme">About Me</Link>
+              {/* <Link to="/aboutme">About Me</Link> */}
               <Link to="/projects2">Projects</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
