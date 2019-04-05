@@ -13,7 +13,7 @@ class Landing extends Component {
               <h1>Justin Garcia</h1>
               <h1>Software Developer</h1>
               <Skills className="banner-text"/>
-              <p>HTML/CSS | Bootstrap | JavaScript | React | Ruby on Rails | NodeJS | SQL</p>
+              <h4>HTML/CSS | Bootstrap | JavaScript | React | Ruby on Rails | NodeJS | SQL</h4>
 
               <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"></link>
             </div>

@@ -1,8 +1,7 @@
 .mdl-layout__header-row {
-  /* background: rgb(107, 106, 106); */
   position: fixed;
-  /* opacity: .30; */
   background-image: url('https://c.pxhere.com/photos/d0/d6/background_tree_wood_boards_texture_wooden_background_old_brown-1370487.jpg!d');
+  font-weight: bold;
 }
 
 .landing-grid {
@@ -107,16 +106,16 @@
 
 .banner-text h1 {
   font-size: 66px;
-  font: bold;
+  font-weight: bold;
   color: white;
   font-family: Tahoma, Geneva, sans-serif;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 
 .banner-text h2 {
   color: white;
   font-family: Tahoma, Geneva, sans-serif;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 
 .banner-text hr {
@@ -125,11 +124,10 @@
   margin: auto;
 }
 
-.banner-text p {
+.banner-text h4 {
   color: white;
-  font-size: 20px;
   padding: 2em;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-weight: bold;
 }
 
