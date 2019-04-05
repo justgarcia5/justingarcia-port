@@ -99,7 +99,7 @@
 
 .banner-text {
   background-color: rgb(5, 51, 94);
-  opacity: .75;
+  opacity: .85;
   width: 78%;
   margin: auto;
   margin-top: 10%;
@@ -132,7 +132,6 @@
 }
 
 .banner-text i {
-  color: rgb(255, 255, 255);
   font-size: 5em;
   justify-content: center;
   width: 10%;
@@ -144,22 +143,27 @@
 
 .social-links {
   display: flex;
-  justify-content: space-between;
-  width: 40%;
-  margin-top: 8%;
-  margin-bottom: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 3%;
-  border: solid white;
-  background: white;
-  opacity: .90;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  padding: 3%;
+  width: 40%;
 }
 
 .social-links i {
   font-size: 5em;
-  /* opacity: 100%; */
+  width: 40%;
+  z-index: 11;
+}
+
+.border-links {
+  border: solid white;
+  background: white;
+  max-width: 100%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  opacity: .90;
+  z-index: 9;
 }
 
 .card {
