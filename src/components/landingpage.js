@@ -33,7 +33,7 @@ class Landing extends Component {
                 </a>
 
                 <a href="mailto:justgarcia5@gmail.com">
-                  <i className="fa fa-envelope" aria-hidden="true" style={{color: "grey"}}/>
+                  <i className="fa fa-envelope" aria-hidden="true" style={{color: "rgb(220,220,220)"}}/>
                 </a>
 
                 <a href="https://twitter.com/Justgarcia85" rel="noopener noreferrer" target="_blank">

@@ -1,14 +1,18 @@
 .mdl-layout__header-row {
   position: fixed;
-  background-image: url('https://c.pxhere.com/photos/d0/d6/background_tree_wood_boards_texture_wooden_background_old_brown-1370487.jpg!d');
+  background-image: url('https://farm6.staticflickr.com/5707/22174425329_008a9fd08f_b.jpg');
   font-weight: bold;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+
 }
 
 .landing-grid {
   text-align: center;
   top: 0;
   left: 0;
-  background-image: url('https://c.pxhere.com/photos/d0/d6/background_tree_wood_boards_texture_wooden_background_old_brown-1370487.jpg!d');
+  background-image: url('https://farm6.staticflickr.com/5707/22174425329_008a9fd08f_b.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: 100%;
@@ -102,7 +106,7 @@
 .banner-text {
   width: 78%;
   margin: auto;
-  background-color: rgb(66, 66, 66);
+  background-color: rgba(0, 68, 196, 0.356);
   opacity: .80;
   margin-top: 10em;
 }
