@@ -14,6 +14,7 @@ import toolShare2 from '../images/toolShare2.png'
 import tictactoe from '../images/tic-tac-toe2.png'
 import weather from '../images/weather.png'
 import SimpleBlog from '../images/SimpleBlog.png'
+import Zeal from '../images/zeal.png'
 
 class Projects2 extends React.Component {
   constructor(props) {
@@ -33,9 +34,9 @@ class Projects2 extends React.Component {
 
             <img src={tictactoe} alt="tic-tac-toe" className="project-img"/>
 
-          <CardText>
+          {/* <CardText>
             During my time as a student at the Learn Academy web developement bootcamp, this was one of the first projects I did using React.
-          </CardText>
+          </CardText> */}
           <CardActions border>
             <a href="https://github.com/justgarcia5/tic-tac-toe" rel="noopener noreferrer" target="_blank">
               <Button colored>GitHub</Button>
@@ -51,9 +52,9 @@ class Projects2 extends React.Component {
             {/* <h3>ToolShare</h3> */}
             <img src={toolShare2} alt="toolshare-img"/>
 
-          <CardText>
+          {/* <CardText>
             ToolShare was the final project that myself and three other students built at Learn Academy Web Dev bootcamp. It implemented all of the skills aquired over the course of program.
-          </CardText>
+          </CardText> */}
           <CardActions border>
           <a href="https://github.com/team-pacific-drive/ToolShare" rel="noopener noreferrer" target="_blank">
             <Button colored>GitHub</Button>
@@ -69,9 +70,9 @@ class Projects2 extends React.Component {
             {/* <h3>Weather App</h3> */}
             <img src={weather} alt="weather" />
 
-          <CardText>
+          {/* <CardText>
             This project was an intro to using external API calls and how they work. Enter the city and country and find out the weather.
-          </CardText>
+          </CardText> */}
           <CardActions border>
           <a href="https://github.com/justgarcia5/weather_app" rel="noopener noreferrer" target="_blank">
             <Button colored>GitHub</Button>
@@ -85,11 +86,7 @@ class Projects2 extends React.Component {
     return (
       <div className="projects-grid">
         <Card className="card" shadow={5}>
-          {/* <div className="card-title"> */}
-            {/* <h3>Blog App</h3> */}
-            <img src={SimpleBlog} alt="blog-screenshot" />
-
-          {/* </div> */}
+          <img src={SimpleBlog} alt="blog-screenshot" />
           <CardText>
 
           </CardText>
@@ -101,22 +98,23 @@ class Projects2 extends React.Component {
         </Card>
 
         <Card className="card" shadow={5}>
-          <div className="card-title">
-            <h3>Ruby on Rails</h3>
-          </div>
+            <img src={Zeal} alt="zeal-logo" />
+
           <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+
           </CardText>
           <CardActions border>
+          <a href="https://github.com/CodingZeal/initiative-tracker">
             <Button colored>GitHub</Button>
+          </a>
+          <a>
             <Button colored>Live Demo</Button>
+          </a>
           </CardActions>
         </Card>
 
-        <Card className="card" shadow={5}>
-          <div className="card-title">
-            <h3>Ruby on Rails</h3>
-          </div>
+        {/* <Card className="card" shadow={5}>
+
           <CardText>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
           </CardText>
@@ -124,7 +122,7 @@ class Projects2 extends React.Component {
             <Button colored>GitHub</Button>
             <Button colored>Live Demo</Button>
           </CardActions>
-        </Card>
+        </Card> */}
       </div>
     )
   }
