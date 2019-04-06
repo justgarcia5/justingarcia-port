@@ -18,10 +18,7 @@ class Landing extends Component {
               <h1>Justin Garcia</h1>
               <h1>Software Developer</h1>
               <Skills className="banner-text"/>
-              <h4>HTML/CSS | Bootstrap | JavaScript | React | Ruby on Rails | NodeJS | SQL</h4>
-
-
-            </div>
+             </div>
             <div className="border-links">
               <div className="social-links">
                 <a href="https://linkedin.com/in/just-g-garcia" rel="noopener noreferrer" target="_blank">
