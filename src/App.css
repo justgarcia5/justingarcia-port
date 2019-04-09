@@ -5,6 +5,8 @@
   background-size: 100%;
   background-position: center;
   background-attachment: fixed;
+  transform: translateZ(-1px) scale(1);
+
 }
 
 .landing-grid {
@@ -15,6 +17,8 @@
   background-attachment: fixed;
   background-position: center;
   background-size: 100%;
+  transform: translateZ(-1px) scale(1);
+
 }
 
 .justin-header-link {
@@ -106,15 +110,15 @@
 .banner-text {
   width: 78%;
   margin: auto;
-  background-color: rgba(26, 82, 185, 0.356);
-  margin-top: 10em;
+  background-color: rgba(4, 50, 136, 0.356);
+  /* margin-top: 10em; */
   padding-top: 3em;
   padding-bottom: 3em;
 }
 
 .banner-text h1 {
   font-size: 66px;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: white;
   font-family: Tahoma, Geneva, sans-serif;
   letter-spacing: 3px;
@@ -124,6 +128,7 @@
   color: white;
   font-family: Tahoma, Geneva, sans-serif;
   letter-spacing: 3px;
+  margin-bottom: 80px;
 }
 
 .banner-text hr {

@@ -7,7 +7,7 @@ import CoverLetter from '../pdf_files/CoverLetter.pdf'
 const PdfDocs = () => (
   <div className="docs">
    <div>
-    <h2>Docs</h2>
+    <h2>Documents</h2>
     </div>
     <a href={Letter} rel="noopener noreferrer" target="_blank">
       <i className="fa fa-file-pdf" />

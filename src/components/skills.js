@@ -2,8 +2,8 @@ import React from 'react';
 
 const Skills = () => (
   <div>
-    <h2 >Skills</h2>
-    <hr/>
+    {/* <h2 >Skills</h2> */}
+    {/* <hr/> */}
     <div>
       <i className="fab fa-css3" style={{color: "orangered"}}/>
       <i className="fab fa-html5" style={{color: "rgb(255, 165, 0)"}}/>

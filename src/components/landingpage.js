@@ -5,6 +5,7 @@ import {
 } from 'react-mdl';
 
 import Skills from './skills'
+import Resume from './resume'
 
 class Landing extends Component {
   render() {
@@ -15,8 +16,8 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <div className="banner-text">
-              <h1>Justin Garcia</h1>
-              <h1>Software Developer</h1>
+              <h1 style={{fontWeight: "bold"}}>Justin Garcia</h1>
+              <h2>Software Developer</h2>
               <Skills className="banner-text"/>
              </div>
             <div className="border-links">
@@ -40,6 +41,7 @@ class Landing extends Component {
             </div>
           </Cell>
         </Grid>
+        <Resume />
       </div>
     )
   }
