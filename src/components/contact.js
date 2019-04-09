@@ -16,7 +16,7 @@ class Contact extends Component {
               alt="avatar"
             />
           </Cell>
-          <Cell col={6}>
+          <Cell className="contact-cell" col={6}>
             <h2>Contact Me</h2>
             <hr style={{ border: "solid black 2px" }}/>
             <div className="contact-list">
