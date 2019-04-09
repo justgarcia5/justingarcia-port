@@ -111,7 +111,7 @@
   width: 78%;
   margin: auto;
   background-color: rgba(4, 50, 136, 0.356);
-  /* margin-top: 10em; */
+  margin-top: 10em;
   padding-top: 3em;
   padding-bottom: 3em;
 }
@@ -174,7 +174,7 @@
   max-width: 100%;
   margin-top: 8%;
   margin-bottom: 5%;
-  /* opacity: .80; */
+  opacity: .80;
 }
 
 .card {
@@ -206,5 +206,10 @@
 }
 
 .contact-body {
-  background: gray;
+  background: rgb(42, 41, 53);
+}
+
+.peru-pic {
+  height: 550px;
+  box-shadow: 3px 3px 5px 6px #ccc
 }

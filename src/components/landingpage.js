@@ -5,14 +5,11 @@ import {
 } from 'react-mdl';
 
 import Skills from './skills'
-import Resume from './resume'
 
 class Landing extends Component {
   render() {
     return(
       <div>
-         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"></link>
-
         <Grid className="landing-grid">
           <Cell col={12}>
             <div className="banner-text">
@@ -41,7 +38,6 @@ class Landing extends Component {
             </div>
           </Cell>
         </Grid>
-        <Resume />
       </div>
     )
   }

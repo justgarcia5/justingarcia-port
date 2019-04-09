@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import Peru from '../images/peru.jpeg'
 
 
 class Contact extends Component {
@@ -10,12 +11,10 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Justin Garcia</h2>
             <img
-              src="https://render.bitstrips.com/v2/cpanel/76c3b171-f0cf-4dd6-b91f-91bd86693f61-1fa32da0-5aca-4ce8-a6b7-9e5d9dce98da-v1.png?transparent=1&palette=1"
-              style={{height: '250px'}}
+              src={Peru}
+              className="peru-pic"
               alt="avatar"
             />
-            {/* <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p> */}
-
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
