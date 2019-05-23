@@ -1,19 +1,22 @@
 .mdl-layout__header-row {
   position: fixed;
-  background-image: url('https://farm6.staticflickr.com/5707/22174425329_008a9fd08f_b.jpg');
+  background-image: url('https://c.pxhere.com/photos/ce/17/code_programming_html_javascript_programming_language-58668.jpg!d');
   font-weight: bold;
   background-size: 100%;
   background-position: center;
   background-attachment: fixed;
   transform: translateZ(-1px) scale(1);
+}
 
+.mdl-navigation {
+  text-align: left;
 }
 
 .landing-grid {
   text-align: center;
   top: 0;
   left: 0;
-  background-image: url('https://farm6.staticflickr.com/5707/22174425329_008a9fd08f_b.jpg');
+  background-image: url('https://c.pxhere.com/photos/ce/17/code_programming_html_javascript_programming_language-58668.jpg!d');
   background-attachment: fixed;
   background-position: center;
   background-size: 100%;
@@ -24,8 +27,12 @@
 .justin-header-link {
   text-decoration: none;
   color: white;
-  font-size: 30px;
+  font-size: 50px;
   font-family: monospace
+}
+
+.justin-header-link Link a {
+  font-size: 25px
 }
 
 .header-links {
@@ -110,7 +117,7 @@
 .banner-text {
   width: 78%;
   margin: auto;
-  background-color: rgba(4, 50, 136, 0.356);
+  background-color: rgba(7, 18, 39, 0.575);
   margin-top: 10em;
   padding-top: 3em;
   padding-bottom: 3em;
@@ -118,7 +125,6 @@
 
 .banner-text h1 {
   font-size: 66px;
-  /* font-weight: bold; */
   color: white;
   font-family: Tahoma, Geneva, sans-serif;
   letter-spacing: 3px;
@@ -128,7 +134,7 @@
   color: white;
   font-family: Tahoma, Geneva, sans-serif;
   letter-spacing: 3px;
-  margin-bottom: 80px;
+  margin: 20px auto;
 }
 
 .banner-text hr {

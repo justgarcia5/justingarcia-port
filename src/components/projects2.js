@@ -26,94 +26,89 @@ class Projects2 extends React.Component {
 
   toggleCategories() {
 
-    if(this.state.activeTab === 0){
-      return(
-      <div className="projects-grid">
-        <Card className="card" shadow={5}>
+    if (this.state.activeTab === 0) {
+      return (
+        <div className="projects-grid">
+          <Card className="card" shadow={5}>
             {/* <h3>Tic-Tac-Toe</h3> */}
 
-            <img src={tictactoe} alt="tic-tac-toe" className="project-img"/>
+            <img src={tictactoe} alt="tic-tac-toe" className="project-img" />
 
-          {/* <CardText>
+            {/* <CardText>
             During my time as a student at the Learn Academy web developement bootcamp, this was one of the first projects I did using React.
           </CardText> */}
-          <CardActions border>
-            <a href="https://github.com/justgarcia5/tic-tac-toe" rel="noopener noreferrer" target="_blank">
-              <Button colored>GitHub</Button>
-            </a>
-            {/* <a rel="noopener noreferrer" target="_blank">
+            <CardActions border>
+              <a href="https://github.com/justgarcia5/tic-tac-toe" rel="noopener noreferrer" target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
+              {/* <a rel="noopener noreferrer" target="_blank">
               <Button colored>Live Demo</Button>
             </a> */}
-          </CardActions>
-        </Card>
+            </CardActions>
+          </Card>
 
-        <Card className="card" shadow={5}>
+          <Card className="card" shadow={5}>
 
             {/* <h3>ToolShare</h3> */}
-            <img src={toolShare2} alt="toolshare-img"/>
+            <img src={toolShare2} alt="toolshare-img" />
 
-          {/* <CardText>
+            {/* <CardText>
             ToolShare was the final project that myself and three other students built at Learn Academy Web Dev bootcamp. It implemented all of the skills aquired over the course of program.
           </CardText> */}
-          <CardActions border>
-          <a href="https://github.com/team-pacific-drive/ToolShare" rel="noopener noreferrer" target="_blank">
-            <Button colored>GitHub</Button>
-          </a>
-          <a href="https://hidden-tundra-14844.herokuapp.com/account/my_tools" rel="noopener noreferrer" target="_blank">
-            <Button colored>Live Demo</Button>
-          </a>
-          </CardActions>
-        </Card>
+            <CardActions border>
+              <a href="https://github.com/team-pacific-drive/ToolShare" rel="noopener noreferrer" target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
+              <a href="https://hidden-tundra-14844.herokuapp.com/account/my_tools" rel="noopener noreferrer" target="_blank">
+                <Button colored>Live Demo</Button>
+              </a>
+            </CardActions>
+          </Card>
 
-        <Card className="card" shadow={5}>
+          <Card className="card" shadow={5}>
 
             {/* <h3>Weather App</h3> */}
             <img src={weather} alt="weather" />
 
-          {/* <CardText>
+            {/* <CardText>
             This project was an intro to using external API calls and how they work. Enter the city and country and find out the weather.
           </CardText> */}
-          <CardActions border>
-          <a href="https://github.com/justgarcia5/weather_app" rel="noopener noreferrer" target="_blank">
-            <Button colored>GitHub</Button>
-          </a>
-            {/* <Button colored>Live Demo</Button> */}
-          </CardActions>
-        </Card>
-      </div>
-    )
-  } else if(this.state.activeTab === 1) {
-    return (
-      <div className="projects-grid">
-        <Card className="card" shadow={5}>
-          <img src={SimpleBlog} alt="blog-screenshot" />
-          <CardText>
+            <CardActions border>
+              <a href="https://github.com/justgarcia5/weather_app" rel="noopener noreferrer" target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
+              {/* <Button colored>Live Demo</Button> */}
+            </CardActions>
+          </Card>
+        </div>
+      )
+    } else if (this.state.activeTab === 1) {
+      return (
+        <div className="projects-grid">
+          <Card className="card" shadow={5}>
+            <img src={SimpleBlog} alt="blog-screenshot" />
+            <CardText>
 
-          </CardText>
-          <CardActions border>
-          <a href="https://github.com/justgarcia5/SimpleBlog" rel="noopener noreferrer" target="_blank">
-            <Button colored>GitHub</Button>
-          </a>
-          </CardActions>
-        </Card>
+            </CardText>
+            <CardActions border>
+              <a href="https://github.com/justgarcia5/SimpleBlog" rel="noopener noreferrer" target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
 
-        <Card className="card" shadow={5}>
+          <Card className="card" shadow={5}>
             <img src={Zeal} alt="zeal-logo" />
+            <CardText>
+            </CardText>
+            <CardActions border>
+              <a href="https://github.com/CodingZeal/initiative-tracker">
+                <Button colored>GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
 
-          <CardText>
-
-          </CardText>
-          <CardActions border>
-          <a href="https://github.com/CodingZeal/initiative-tracker">
-            <Button colored>GitHub</Button>
-          </a>
-          <a>
-            <Button colored>Live Demo</Button>
-          </a>
-          </CardActions>
-        </Card>
-
-        {/* <Card className="card" shadow={5}>
+          {/* <Card className="card" shadow={5}>
 
           <CardText>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -123,13 +118,13 @@ class Projects2 extends React.Component {
             <Button colored>Live Demo</Button>
           </CardActions>
         </Card> */}
-      </div>
-    )
+        </div>
+      )
+    }
   }
-}
 
   render() {
-    return(
+    return (
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab>React</Tab>
