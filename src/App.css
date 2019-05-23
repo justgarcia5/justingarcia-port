@@ -12,6 +12,13 @@
   text-align: left;
 }
 
+.date-api  {
+  text-align: center;
+  font-size: 50px;
+  margin: 20px auto;
+  color: #ccc;
+}
+
 .landing-grid {
   text-align: center;
   top: 0;
@@ -207,16 +214,6 @@
   justify-content: space-between;
   text-align: center;
 }
-
-/* .contact-cell {
-  text-align: center;
-  top: 0;
-  left: 0;
-  background-image: url('https://farm6.staticflickr.com/5707/22174425329_008a9fd08f_b.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 100%;
-} */
 
 .peru-pic {
   height: 550px;
