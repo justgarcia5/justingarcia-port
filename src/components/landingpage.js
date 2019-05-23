@@ -5,12 +5,16 @@ import {
 } from 'react-mdl';
 
 import Skills from './skills'
+import DateApi from './dateapi'
 
 class Landing extends Component {
   render() {
     return (
       <div>
         <Grid className="landing-grid">
+          <div>
+            <DateApi className='date-api' />
+          </div>
           <Cell col={12}>
             <div className="banner-text">
               <h1 style={{ fontWeight: "bold" }}>Justin Garcia</h1>
