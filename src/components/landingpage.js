@@ -12,9 +12,9 @@ class Landing extends Component {
     return (
       <div>
         <Grid className="landing-grid">
-          {/* <div>
+          <div>
             <DateApi className='date-api' />
-          </div> */}
+          </div>
           <Cell col={12}>
             <div className="banner-text">
               <h1 style={{ fontWeight: "bold" }}>Justin Garcia</h1>
