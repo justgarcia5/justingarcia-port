@@ -12,9 +12,9 @@ class Landing extends Component {
     return (
       <div>
         <Grid className="landing-grid">
-          <div>
+          {/* <div>
             <DateApi className='date-api' />
-          </div>
+          </div> */}
           <Cell col={12}>
             <div className="banner-text">
               <h1 style={{ fontWeight: "bold" }}>Justin Garcia</h1>
@@ -24,7 +24,7 @@ class Landing extends Component {
             <div className="border-links">
               <div className="social-links">
                 <a href="https://linkedin.com/in/just-g-garcia" rel="noopener noreferrer" target="_blank">
-                  <i className="fab fa-linkedin" aria-hidden="true" style={{ color: "rgb(0, 119, 181)" }} />
+                  <i className="fab fa-linkedin" aria-hidden="true" style={{ color: "rgb(77, 184, 255)" }} />
                 </a>
 
                 <a href="https://github.com/justgarcia5" rel="noopener noreferrer" target="_blank">
