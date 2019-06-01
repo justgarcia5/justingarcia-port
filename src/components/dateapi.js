@@ -10,6 +10,7 @@ class DateApi extends React.Component {
       datetime: '',
       unixtime: '',
       timezone: '',
+      time: ''
     },
   }
 
