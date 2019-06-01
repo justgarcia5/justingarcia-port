@@ -16,7 +16,6 @@ class App extends Component {
     return (
       <div>
         <div>
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"></link>
           <Layout >
             <Header className="header-links" title={<Link className="justin-header-link" to="/">Justin Garcia</Link>} scroll>
               <Navigation>

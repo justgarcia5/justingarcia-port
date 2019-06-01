@@ -12,13 +12,6 @@
   text-align: left;
 }
 
-.date-api  {
-  text-align: center;
-  font-size: 50px;
-  margin: 20px auto;
-  color: #ccc;
-}
-
 .landing-grid {
   text-align: center;
   top: 0;
@@ -218,4 +211,47 @@
 .peru-pic {
   height: 550px;
   box-shadow: 3px 3px 5px 6px #ccc
+}
+
+.date-card {
+  text-align: center;
+  background-color: rgb(245, 242, 239);
+  background-image: url('https://c.pxhere.com/photos/ce/17/code_programming_html_javascript_programming_language-58668.jpg!d');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+  transform: translateZ(-1px) scale(1);
+}
+
+.date-card-container:hover {
+  opacity: .7;
+}
+
+.date-card-div h3{
+  font-size: 50px;
+  color: white;
+  font-family: monospace;
+}
+
+.date-card-container {
+  border:.5px solid black;
+  max-width: 400px;
+  height: 160px;
+  margin: auto;
+  background-size: 100%;
+  border-radius: 5px;
+  max-width: 400px;
+  cursor: pointer;
+  text-align: center
+}
+
+.date-card-container p {
+  color: white;
+  font-size: 27px;
+  font-family: monospace
+}
+
+.project-picture {
+  size: 30px;
+  height: 400px;
 }

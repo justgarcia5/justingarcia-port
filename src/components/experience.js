@@ -3,14 +3,14 @@ import { Grid, Cell } from 'react-mdl';
 
 class Experience extends Component {
   render() {
-    return(
+    return (
       <Grid>
         <Cell col={4}>
-          <p>{this.props.startYear} - {this.props.endYear}</p>
+          <h5>{this.props.startYear} - {this.props.endYear}</h5>
         </Cell>
         <Cell col={8}>
-          <h4 style={{marginTop:'0px'}}>{this.props.jobName}</h4>
-          <p>{this.props.jobDescription}</p>
+          <h4 style={{ marginTop: '0px' }}>{this.props.jobName}</h4>
+          <h5>{this.props.jobDescription}</h5>
         </Cell>
       </Grid>
     )
