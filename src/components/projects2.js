@@ -30,31 +30,16 @@ class Projects2 extends React.Component {
       return (
         <div className="projects-grid">
           <Card className="card" shadow={5}>
-            {/* <h3>Tic-Tac-Toe</h3> */}
-
             <img src={tictactoe} alt="tic-tac-toe" className="project-img" />
-
-            {/* <CardText>
-            During my time as a student at the Learn Academy web developement bootcamp, this was one of the first projects I did using React.
-          </CardText> */}
             <CardActions border>
               <a href="https://github.com/justgarcia5/tic-tac-toe" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
               </a>
-              {/* <a rel="noopener noreferrer" target="_blank">
-              <Button colored>Live Demo</Button>
-            </a> */}
             </CardActions>
           </Card>
 
           <Card className="card" shadow={5}>
-
-            {/* <h3>ToolShare</h3> */}
             <img src={toolShare2} alt="toolshare-img" />
-
-            {/* <CardText>
-            ToolShare was the final project that myself and three other students built at Learn Academy Web Dev bootcamp. It implemented all of the skills aquired over the course of program.
-          </CardText> */}
             <CardActions border>
               <a href="https://github.com/team-pacific-drive/ToolShare" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
@@ -66,18 +51,14 @@ class Projects2 extends React.Component {
           </Card>
 
           <Card className="card" shadow={5}>
-
-            {/* <h3>Weather App</h3> */}
             <img src={weather} alt="weather" />
-
-            {/* <CardText>
-            This project was an intro to using external API calls and how they work. Enter the city and country and find out the weather.
-          </CardText> */}
             <CardActions border>
               <a href="https://github.com/justgarcia5/weather_app" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
               </a>
-              {/* <Button colored>Live Demo</Button> */}
+              <a href="https://tranquil-eyrie-34239.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+                <Button colored>Live Demo</Button>
+              </a>
             </CardActions>
           </Card>
         </div>
@@ -98,11 +79,11 @@ class Projects2 extends React.Component {
           </Card>
 
           <Card className="card" shadow={5}>
-            <img src={Zeal} alt="zeal-logo" />
+            <img src={Zeal} alt="zeal-logo" className='project-picture'/>
             <CardText>
             </CardText>
             <CardActions border>
-              <a href="https://github.com/CodingZeal/initiative-tracker">
+              <a href="https://github.com/CodingZeal/initiative-tracker" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
               </a>
             </CardActions>
