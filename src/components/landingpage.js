@@ -37,6 +37,7 @@ class Landing extends Component {
                   <i className="fab fa-twitter" aria-hidden="true" style={{ color: "rgb(29, 202, 255)" }} />
                 </a>
               </div>
+              <br/>
             </div>
           </Cell>
         </Grid>
