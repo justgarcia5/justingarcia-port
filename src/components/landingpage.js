@@ -5,13 +5,11 @@ import {
 } from 'react-mdl';
 
 import Skills from './skills'
-import DateApi from './DateApi'
 
 class Landing extends Component {
   render() {
     return (
       <div>
-        <DateApi />
         <Grid className="landing-grid">
           <Cell col={12}>
             <div className="banner-text">
