@@ -15,6 +15,7 @@ import tictactoe from '../images/tic-tac-toe2.png'
 import weather from '../images/weather.png'
 import SimpleBlog from '../images/SimpleBlog.png'
 import Zeal from '../images/zeal.png'
+import recipeApp from '../images/recipeApp.png'
 
 class Projects2 extends React.Component {
   constructor(props) {
@@ -51,6 +52,19 @@ class Projects2 extends React.Component {
           </Card>
 
           <Card className="card" shadow={5}>
+            <img src={recipeApp} alt="toolshare-img" />
+            <CardActions border>
+              <a href="https://github.com/justgarcia5/recipe-app" rel="noopener noreferrer" target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
+              <a href="https://murmuring-depths-10331.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+                <Button colored>Live Demo</Button>
+              </a>
+            </CardActions>
+          </Card>
+
+          <Card className="card" shadow={5}>
+
             <img src={weather} alt="weather" />
             <CardActions border>
               <a href="https://github.com/justgarcia5/weather_app" rel="noopener noreferrer" target="_blank">
@@ -79,7 +93,7 @@ class Projects2 extends React.Component {
           </Card>
 
           <Card className="card" shadow={5}>
-            <img src={Zeal} alt="zeal-logo" className='project-picture'/>
+            <img src={Zeal} alt="zeal-logo" className='project-picture' />
             <CardText>
             </CardText>
             <CardActions border>
