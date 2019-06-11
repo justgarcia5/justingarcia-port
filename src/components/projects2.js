@@ -57,7 +57,7 @@ class Projects2 extends React.Component {
               <a href="https://github.com/justgarcia5/recipe-app" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
               </a>
-              <a href="https://murmuring-depths-10331.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+              <a href="https://blooming-brushlands-16807.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                 <Button colored>Live Demo</Button>
               </a>
             </CardActions>
