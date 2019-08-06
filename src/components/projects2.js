@@ -15,7 +15,8 @@ import tictactoe from '../images/tic-tac-toe2.png'
 import weather from '../images/weather.png'
 import SimpleBlog from '../images/SimpleBlog.png'
 import Zeal from '../images/zeal.png'
-import recipeApp from '../images/recipeApp.png'
+import recipeApp from '../images/recipe-app.png'
+import friendbook from '../images/friend-book.png'
 
 class Projects2 extends React.Component {
   constructor(props) {
@@ -31,7 +32,7 @@ class Projects2 extends React.Component {
       return (
         <div className="projects-grid">
           <Card className="card" shadow={5}>
-            <img src={tictactoe} alt="tic-tac-toe" className="project-img" />
+            <img src={tictactoe} alt="tic-tac-toe" className='project-picture' />
             <CardActions border>
               <a href="https://github.com/justgarcia5/tic-tac-toe" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
@@ -40,7 +41,7 @@ class Projects2 extends React.Component {
           </Card>
 
           <Card className="card" shadow={5}>
-            <img src={toolShare2} alt="toolshare-img" />
+            <img src={toolShare2} alt="toolshare-img" className='project-picture' />
             <CardActions border>
               <a href="https://github.com/team-pacific-drive/ToolShare" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
@@ -52,7 +53,7 @@ class Projects2 extends React.Component {
           </Card>
 
           <Card className="card" shadow={5}>
-            <img src={recipeApp} alt="toolshare-img" />
+            <img src={recipeApp} alt="toolshare-img" className='project-picture' />
             <CardActions border>
               <a href="https://github.com/justgarcia5/recipe-app" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
@@ -65,7 +66,7 @@ class Projects2 extends React.Component {
 
           <Card className="card" shadow={5}>
 
-            <img src={weather} alt="weather" />
+            <img src={weather} alt="weather" className='project-picture' />
             <CardActions border>
               <a href="https://github.com/justgarcia5/weather_app" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
@@ -81,7 +82,7 @@ class Projects2 extends React.Component {
       return (
         <div className="projects-grid">
           <Card className="card" shadow={5}>
-            <img src={SimpleBlog} alt="blog-screenshot" />
+            <img src={SimpleBlog} alt="blog-screenshot" className='project-picture' />
             <CardText>
 
             </CardText>
@@ -103,16 +104,19 @@ class Projects2 extends React.Component {
             </CardActions>
           </Card>
 
-          {/* <Card className="card" shadow={5}>
-
-          <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-          </CardText>
-          <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>Live Demo</Button>
-          </CardActions>
-        </Card> */}
+          <Card className="card" shadow={5}>
+            <img src={friendbook} alt="zeal-logo" className='project-picture' />
+            <CardText>
+            </CardText>
+            <CardActions border>
+              <a href="https://github.com/justgarcia5/contact-list" rel="noopener noreferrer"    target="_blank">
+                <Button colored>GitHub</Button>
+              </a>
+              <a href="https://polar-taiga-39732.herokuapp.com" rel="noopener noreferrer"    target="_blank">
+                <Button colored>Live Demo</Button>
+              </a>
+            </CardActions>
+          </Card>
         </div>
       )
     }
