@@ -7,6 +7,22 @@ import {
 import Skills from './skills'
 
 class Landing extends Component {
+  state = {
+    data: []
+  }
+
+  // componentDidMount = () => {
+  //   fetch("https://platform.twitter.com/widgets.js", {
+  //     headers : {
+  //       'Content-Type': 'application/json',
+  //       'Accept': 'application/json'
+  //      }
+  //   })
+  //   .then(response => response.json())
+  //   .then(data => this.setState({ data: data }));
+  //   console.log(this.state.data)
+  // }
+
   render() {
     return (
       <div>
@@ -17,6 +33,7 @@ class Landing extends Component {
               <h2>Software Developer</h2>
               <Skills className="banner-text" />
             </div>
+
             <div className="border-links">
               <div className="social-links">
                 <a href="https://linkedin.com/in/just-g-garcia" rel="noopener noreferrer" target="_blank">
