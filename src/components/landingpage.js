@@ -7,21 +7,6 @@ import {
 import Skills from './skills'
 
 class Landing extends Component {
-  state = {
-    data: []
-  }
-
-  // componentDidMount = () => {
-  //   fetch("https://platform.twitter.com/widgets.js", {
-  //     headers : {
-  //       'Content-Type': 'application/json',
-  //       'Accept': 'application/json'
-  //      }
-  //   })
-  //   .then(response => response.json())
-  //   .then(data => this.setState({ data: data }));
-  //   console.log(this.state.data)
-  // }
 
   render() {
     return (
