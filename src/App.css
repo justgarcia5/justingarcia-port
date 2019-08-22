@@ -8,15 +8,6 @@
   transform: translateZ(-1px) scale(1);
 }
 
-.mdl-grid h2 h4{
-  font-family: 'Fredericka the Great', cursive;
-}
-
-.mdl-navigation {
-  text-align: left;
-  font-size: 20px;
-}
-
 * {
   font-family: 'Fredericka the Great', cursive;
 }
@@ -67,7 +58,7 @@
 }
 
 .resume-right-col {
-  background: #b8b8c0;
+  background: #b4b4b4;
   color: black;
   padding: 2em;
 }
@@ -262,4 +253,24 @@
   margin: 80px;
   font-size: 20px;
   text-align: left;
+}
+
+.slide-container {
+  width: 70%;
+  margin: auto;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.each-fade {
+  display: flex;
+}
+
+.each-fade .image-container img {
+  width: 70%;
 }
