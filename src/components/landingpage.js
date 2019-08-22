@@ -14,7 +14,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <div className="banner-text">
-              <h1 style={{ fontWeight: "bold" }}>Justin Garcia</h1>
+              <h1>Justin Garcia</h1>
               <h2>Software Developer</h2>
               <Skills className="banner-text" />
             </div>

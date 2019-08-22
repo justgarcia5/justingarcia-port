@@ -18,7 +18,7 @@ import Zeal from '../images/zeal.png'
 import recipeApp from '../images/recipe-app.png'
 import friendbook from '../images/friend-book.png'
 
-class Projects2 extends React.Component {
+class Projects extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -45,9 +45,6 @@ class Projects2 extends React.Component {
             <CardActions border>
               <a href="https://github.com/team-pacific-drive/ToolShare" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
-              </a>
-              <a href="https://hidden-tundra-14844.herokuapp.com/account/my_tools" rel="noopener noreferrer" target="_blank">
-                <Button colored>Live Demo</Button>
               </a>
             </CardActions>
           </Card>
@@ -139,4 +136,4 @@ class Projects2 extends React.Component {
   }
 }
 
-export default Projects2;
+export default Projects;

@@ -1,18 +1,12 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
 
 class Education extends Component {
   render() {
     return(
-      <Grid>
-        <Cell col={4}>
-          <h4>{this.props.startYear} - {this.props.endYear}</h4>
-        </Cell>
-        <Cell col={8}>
-          <h4 style={{marginTop:'0px'}}>{this.props.schoolName}</h4>
-          <p>{this.props.schoolDescription}</p>
-        </Cell>
-      </Grid>
+      <React.Fragment>
+        <h4><b>{this.props.schoolName} / {this.props.startYear} - {this.props.endYear}</b></h4>
+        <ul>{this.props.schoolDescription}</ul>
+      </React.Fragment>
     )
   }
 }
