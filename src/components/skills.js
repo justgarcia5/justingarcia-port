@@ -10,7 +10,7 @@ const Skills = () => (
     <i className="fab fa-react" style={{color: "rgb(0, 216, 255)"}}/>
     <i className="far fa-gem" style={{color: "rgb(255, 0, 0)"}}/>
     <i className="fab fa-python" style={{color: "rgb(128, 128, 128)"}}></i>
-    <i class="fab fa-php" style={{color: "green"}}></i>
+    <i className="fab fa-php" style={{color: "green"}}></i>
   </div>
 )
 

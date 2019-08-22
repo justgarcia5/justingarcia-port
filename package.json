@@ -10,6 +10,7 @@
     "react-mdl": "^1.11.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "2.1.8",
+    "react-slideshow-image": "^1.2.2",
     "react-twitter-widgets": "^1.7.1"
   },
   "scripts": {
