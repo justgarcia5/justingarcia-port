@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Letter from '../pdf_files/letter.pdf'
-import Resume from '../pdf_files/Resume.pdf'
+import Resume from '../pdf_files/justin-resume.pdf'
 
 const PdfDocs = () => (
   <div className="docs">
