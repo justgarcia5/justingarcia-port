@@ -2,17 +2,17 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import LandingPage from './landingpage';
-import AboutMe from './aboutme';
+import About from './about';
 import Contact from './contact';
-import Projects2 from './projects2';
+import Projects from './projects';
 import Resume from './resume';
 
 const Routes = () => (
   <Switch>
     <Route exact path="/" component={LandingPage} />
-    <Route path="/aboutme" component={AboutMe} />
+    <Route path="/about" component={About} />
     <Route path="/contact" component={Contact} />
-    <Route path="/projects2" component={Projects2} />
+    <Route path="/projects" component={Projects} />
     <Route path="/resume" component={Resume} />
   </Switch>
 )

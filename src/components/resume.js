@@ -20,16 +20,16 @@ class Resume extends Component {
                  />
             </div>
             <div>
-              <h2>Justin Garcia</h2>
-              <h4>Programmer</h4>
+              <h2><b>Justin Garcia</b></h2>
+              <h4><b>Programmer</b></h4>
               <hr/>
               <p shadow={5}>Highly motivated individual seeking opportunities as a full stack web developer. I like to think of myself as a quick learner, detail-oriented, and a professional with excellent teamwork and communication skills.</p>
               <hr/>
             </div>
             <div>
-              <h5>Phone</h5>
+              <h5><b>Phone</b></h5>
               <p>(530) 417-2205</p>
-              <h5>Email</h5>
+              <h5><b>Email</b></h5>
               <p>justgarcia5@gmail.com</p>
               <hr/>
             </div>
@@ -37,21 +37,21 @@ class Resume extends Component {
           </Cell>
 
           <Cell className="resume-right-col" col={8} shadow={20}>
-            <h2>Education</h2>
+            <h2><b>Education</b></h2>
             <Education
-              startYear={2018}
-              endYear={2019}
+              startYear={'Nov 2018'}
+              endYear={'Mar 2019'}
               schoolName="Learn Academy"
               schoolDescription={
                 <ul>
-                  <li>LEARN Academy offers the 4-month Rails & Javascript Bootcamp. The program trains students in various industry-leading frameworks and languages, with a concentration on Ruby on Rails</li>
-                  <li>In addition to Ruby, students learn SQL, JavaScript and jQuery. The majority of the bootcamp is spent learning the Rails framework</li>
+                  <li>LEARN Academy offers the 4-month Rails & Javascript Bootcamp. The program trains students in various industry-leading frameworks and languages, with a concentration on Ruby on Rails and React</li>
+                  <li>JAVASCRIPT, REACT, RUBY ON RAILS, GITHUB, TDD, SCRUM, POSTGRESQL</li>
                 </ul>
               }
             />
             <Education
-              startYear={2010}
-              endYear={2012}
+              startYear={'Aug 2010'}
+              endYear={'May 2012'}
               schoolName="Sierra College"
               schoolDescription={
                 <ul>
@@ -62,11 +62,11 @@ class Resume extends Component {
 
             <hr/>
 
-            <h2>Experience</h2>
+            <h2><b>Experience</b></h2>
 
             <Experience
-              startYear={2019}
-              endYear={'Current'}
+              startYear={'Mar 2019'}
+              endYear={'Jun 2019'}
               jobName="Zeal"
               jobDescription={
                 <ul>
@@ -78,13 +78,14 @@ class Resume extends Component {
             />
 
             <Experience
-              startYear={2018}
-              endYear={2019}
+              startYear={'Nov 2018'}
+              endYear={'Mar 2019'}
               jobName="Learn Academy"
               jobDescription={
                 <ul>
-                  <li>400 hours of hands on training in web development and problem-solving skills. Experience with mob and paired programing</li>
-                  <li>This exposure allowed a significant improvement with communication skills</li>
+                  <li>400 hours of hands on training in web development and problem-solving skills.</li>
+                  <li>Experience with Mob and Paired Programing. This exposure allowed a significant improvement with communication skills.</li>
+                  <li>Specialized areas of knowledge in JavaScript, React, Ruby on Rails, GitHub, Postgresql, AJAX, Test Driven Development, and SCRUM</li>
                 </ul>
               }
             />

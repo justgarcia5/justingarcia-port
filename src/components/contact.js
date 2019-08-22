@@ -16,20 +16,20 @@ class Contact extends Component {
               alt="avatar"
             />
           </Cell>
-          <Cell className="contact-cell" col={6}>
+          <Cell col={6}>
             <h2>Contact Me</h2>
-            <hr style={{ border: "solid black 2px" }}/>
+            <hr />
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                  <ListItemContent style={{fontSize: '30px' }} >
                     <i style={{ color: "black" }} className="fa fa-phone-square" aria-hidden="true"/>
                     (530) 417-2205
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                  <ListItemContent style={{ fontSize: '30px'}}>
                     <a  style={{ textDecoration: "none", color: "black" }} href="mailto:justgarcia5@gmail.com" >
                       <i className="fa fa-envelope" aria-hidden="true" />justgarcia5@gmail.com
                     </a>
