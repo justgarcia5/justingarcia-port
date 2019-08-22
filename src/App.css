@@ -8,6 +8,10 @@
   transform: translateZ(-1px) scale(1);
 }
 
+.mdl-grid {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkGlcKCmrqop4TO95xrTKy6RVyvGUokuvcie62RrbiJs_O0PL');
+}
+
 * {
   font-family: 'Fredericka the Great', cursive;
 }
