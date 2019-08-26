@@ -278,3 +278,14 @@
 .each-fade .image-container img {
   width: 70%;
 }
+
+.resume-pic {
+  height: 350px;
+  width: 460px
+}
+
+/* @media only screen and (max-width: 600px) {
+  .resume-pic {
+    width: 400px;
+  }
+} */
