@@ -25,7 +25,6 @@
   background-position: center;
   background-size: 100%;
   transform: translateZ(-1px) scale(1);
-
 }
 
 .justin-header-link {
@@ -35,7 +34,7 @@
 }
 
 .justin-header-link Link a {
-  font-size: 25px
+  font-size: 25px;
 }
 
 .header-links {
@@ -207,7 +206,7 @@
 
 .peru-pic {
   height: 550px;
-  box-shadow: 3px 3px 5px 6px #ccc
+  box-shadow: 3px 3px 5px 6px #ccc;
 }
 
 .date-card {
@@ -238,7 +237,7 @@
   border-radius: 5px;
   max-width: 400px;
   cursor: pointer;
-  text-align: center
+  text-align: center;
 }
 
 .project-picture {
@@ -249,7 +248,7 @@
 .about-page-div {
   text-align: center;
   padding: 50px;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkGlcKCmrqop4TO95xrTKy6RVyvGUokuvcie62RrbiJs_O0PL')
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkGlcKCmrqop4TO95xrTKy6RVyvGUokuvcie62RrbiJs_O0PL');
 }
 
 .about-page-div p {
