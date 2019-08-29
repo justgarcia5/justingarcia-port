@@ -1,7 +1,6 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
 
-import slide1 from '../images/slide1.jpeg'
 import slide2 from '../images/slide2.jpg'
 import slide3 from '../images/slide3.jpeg'
 import slide5 from '../images/slide5.jpg'
