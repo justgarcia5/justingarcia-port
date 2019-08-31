@@ -68,6 +68,7 @@ class Resume extends Component {
               startYear={'Mar 2019'}
               endYear={'Jun 2019'}
               jobName="Zeal"
+              jobTitle="Intern"
               jobDescription={
                 <ul>
                   <li>Worked remotely with a team to build an initiative tracker application using Ruby on Rails that will be internally utilized by the Zeal team</li>
@@ -81,6 +82,7 @@ class Resume extends Component {
               startYear={'Nov 2018'}
               endYear={'Mar 2019'}
               jobName="Learn Academy"
+              jobTitle='Student'
               jobDescription={
                 <ul>
                   <li>400 hours of hands on training in web development and problem-solving skills.</li>
@@ -94,6 +96,7 @@ class Resume extends Component {
               startYear={2012}
               endYear={2018}
               jobName="Aerial Lift Service Co"
+              jobTitle='Service Manager/Mechanic'
               jobDescription={
                 <ul>
                   <li>Managed and organized customer repairs by developing a structured system and utilizing this system to efficiently provide a high level of quality repairs in a timely manner</li>
