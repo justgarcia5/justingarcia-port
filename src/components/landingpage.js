@@ -26,7 +26,7 @@ class Landing extends Component {
                 </a>
 
                 <a href="https://github.com/justgarcia5" rel="noopener noreferrer" target="_blank">
-                  <i className="fab fa-github-square" aria-hidden="true" style={{ color: "rgb(33, 31, 31)" }} />
+                  <i className="fab fa-github-square" aria-hidden="true" style={{ color: "#AD5C51" }} />
                 </a>
 
                 <a href="mailto:justgarcia5@gmail.com">
