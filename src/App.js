@@ -21,11 +21,11 @@ class App extends Component {
           <Layout >
             <Header className="header-links" title={<Link className="justin-header-link" to="/">Justin Garcia</Link>} scroll>
               <Navigation>
-                <Link style={{fontSize: '16px'}} to="/resume">Resume</Link>
-                <a href="https://github.com/justgarcia5" rel="noopener noreferrer" target="_blank" style={{fontSize: '16px'}}>GitHub</a>
-                <Link to="/about" style={{fontSize: '16px'}} >About</Link>
-                <Link to="/projects" style={{fontSize: '16px'}} >Projects</Link>
-                <Link to="/contact" style={{fontSize: '16px'}} >Contact</Link>
+                <Link style={{fontSize: '18px'}} to="/resume">Resume</Link>
+                <a href="https://github.com/justgarcia5" rel="noopener noreferrer" target="_blank" style={{fontSize: '18px'}}>GitHub</a>
+                <Link to="/about" style={{fontSize: '18px'}} >About</Link>
+                <Link to="/projects" style={{fontSize: '18px'}} >Projects</Link>
+                <Link to="/contact" style={{fontSize: '18px'}} >Contact</Link>
               </Navigation>
             </Header>
             <Drawer className="header-links" title={<Link className="header-links" to="/">Justin Garcia</Link>}>
