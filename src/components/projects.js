@@ -15,7 +15,7 @@ import tictactoe from '../images/tic-tac-toe2.png'
 import weather from '../images/weather.png'
 import Blog from '../images/blog.png'
 import Zeal from '../images/zeal.png'
-import recipeApp from '../images/recipe-app.png'
+import recipeApp from '../images/recipe.png'
 import friendbook from '../images/friend-book.png'
 
 class Projects extends React.Component {
