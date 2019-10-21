@@ -13,7 +13,7 @@ import {
 import toolShare2 from '../images/toolShare2.png'
 import tictactoe from '../images/tic-tac-toe2.png'
 import weather from '../images/weather.png'
-import SimpleBlog from '../images/SimpleBlog.png'
+import Blog from '../images/blog.png'
 import Zeal from '../images/zeal.png'
 import recipeApp from '../images/recipe-app.png'
 import friendbook from '../images/friend-book.png'
@@ -79,13 +79,16 @@ class Projects extends React.Component {
       return (
         <div className="projects-grid">
           <Card className="card" shadow={5}>
-            <img src={SimpleBlog} alt="blog-screenshot" className='project-picture' />
+            <img src={Blog} alt="blog-screenshot" className='project-picture' />
             <CardText>
 
             </CardText>
             <CardActions border>
-              <a href="https://github.com/justgarcia5/SimpleBlog" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/justgarcia5/blog-app" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
+              </a>
+              <a href="https://just-blog-app.herokuapp.com" rel="noopener noreferrer" target="_blank">
+                <Button colored>Live Demo</Button>
               </a>
             </CardActions>
           </Card>
