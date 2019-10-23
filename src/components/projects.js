@@ -16,7 +16,7 @@ import weather from '../images/weather.png'
 import Blog from '../images/blog.png'
 import Zeal from '../images/zeal.png'
 import recipeApp from '../images/recipe.png'
-import friendbook from '../images/friend-book.png'
+import contacts from '../images/contacts.png'
 
 class Projects extends React.Component {
   constructor(props) {
@@ -105,7 +105,7 @@ class Projects extends React.Component {
           </Card>
 
           <Card className="card" shadow={5}>
-            <img src={friendbook} alt="zeal-logo" className='project-picture' />
+            <img src={contacts} alt="zeal-logo" className='project-picture' />
             <CardText>
             </CardText>
             <CardActions border>
