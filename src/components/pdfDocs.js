@@ -9,11 +9,11 @@ const PdfDocs = () => (
       <h2><b>Documents</b></h2>
     </div>
     <a href={Letter} rel="noopener noreferrer" target="_blank">
-      <i className="fa fa-file-pdf" />
+      <i className="nav-link col-8 fa fa-file-pdf" />
       <p>Letter of Recomendation</p>
     </a>
     <a href={Resume} rel="noopener noreferrer" target="_blank">
-      <i className="fa fa-file-pdf" />
+      <i className="nav-link col-8 fa fa-file-pdf" />
       <p>Resume</p>
     </a>
   </div>

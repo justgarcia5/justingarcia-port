@@ -9,18 +9,19 @@ import PdfDocs from './pdfDocs'
 class Resume extends Component {
   render() {
     return(
-      <div className="resume">
+      <div className="container resume">
         <Grid>
-          <Cell col={4}>
-            <div>
+          <Cell col={5}>
+            <div >
               <img
                 src={ProfilePic}
                 alt="profile-pic"
-                className='resume-pic'
+                className='img-fluid rounded resume-pic'
+                width={400}
                  />
             </div>
             <div>
-              <h2><b>Justin Garcia</b></h2>
+              <h2 className="mt-4"><b>Justin Garcia</b></h2>
               <h4><b>Programmer</b></h4>
               <hr/>
               <p shadow={5}>Highly motivated individual seeking opportunities as a full stack web developer. I like to think of myself as a quick learner, detail-oriented, and a professional with excellent teamwork and communication skills.</p>
@@ -36,7 +37,7 @@ class Resume extends Component {
             <PdfDocs />
           </Cell>
 
-          <Cell className="resume-right-col" col={8} shadow={20}>
+          <Cell className="resume-right-col" col={7} shadow={20}>
             <h2><b>Education</b></h2>
             <Education
               startYear={'Nov 2018'}

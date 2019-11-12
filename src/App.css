@@ -1,63 +1,115 @@
-.mdl-layout__header-row {
-  position: fixed;
-  background-image: url('https://i.imgur.com/AxuVj2Q.jpg');
-  font-weight: bold;
-  background-size: 100%;
+.nav-background {
+  background-image: url('https://i.imgur.com/AxuVj2Q.jpg')!important;
+  background-size: auto 140%;
   background-position: center;
   background-attachment: fixed;
-  transform: translateZ(-1px) scale(1);
+  /* position: fixed!important; */
+  width: 100%!important;
 }
 
-.mdl-grid {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkGlcKCmrqop4TO95xrTKy6RVyvGUokuvcie62RrbiJs_O0PL');
+.skills-comp i {
+  font-size: 60px;
+}
+
+.jumbotron {
+  background-color: #0a0a0a70!important;
+}
+
+.nav {
+  text-align: right!important;
 }
 
 * {
   font-family: 'Fredericka the Great', cursive;
 }
 
-.landing-grid {
+.fred-font {
+  font-family: 'Fredericka the Great', cursive!important;
+}
+
+.landing-page {
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
-  top: 0;
-  left: 0;
   background-image: url('https://i.imgur.com/AxuVj2Q.jpg');
   background-attachment: fixed;
   background-position: center;
-  background-size: 100%;
-  transform: translateZ(-1px) scale(1);
+  background-size: auto 140%;
+  background-repeat: none;
 }
 
-.justin-header-link {
-  text-decoration: none;
-  color: white;
-  font-size: 38px;
-}
+@media only screen and (max-width: 400px) {
+  .jumbotron h1 {
+    font-size: 22px;
+  }
+  .jumbotron h2 {
+    font-size: 17px;
+    padding-bottom: 4px!important;
+  }
+  .skills-comp i {
+    font-size: 36px;
+    margin: 8px!important;
+  }
+  .landing-page {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .resume h2 {
+    font-size: 17px;
+  }
+  .resume h4 {
+    font-size: 13px;
+  }
+  .resume li {
+    font-size: 10px;
+  }
+  .about-page-div h2 {
+    font-size: 20px;
 
-.justin-header-link Link a {
-  font-size: 25px;
-}
+  }
+  .about-page-div p {
+    font-size: 8px!important;
+    text-align: left;
+    margin: 0!important;
+    padding-bottom: 24px;
+  }
+  .social-links {
+    width: 150px!important;
+    margin-top: 130px!important;
+    margin-bottom: 10px!important;
+  }
 
-.header-links {
-  text-decoration: none;
-  color: black;
-}
-
-.material-icons {
-  position: fixed;
-  margin-top: 5px;
-  margin-right: 100px;
-  padding-top: 5px;
+  .social-links i {
+    font-size: 20px!important;
+    padding: 1px!important;
+    margin: 1px!important;
+  }
+  .card {
+    height: 310px!important;
+  }
+  .contact-list span{
+    font-size: 14px!important;
+    width: 300px;
+    text-align: left;
+  }
+  .contact-list i {
+    font-size: 30px!important;
+    padding-right: 18px!important;
+    padding-left: 4px!important;
+  }
 }
 
 .projects-grid {
   display: flex;
-  text-align: center;
-  min-width: 450;
   margin: auto;
-  display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 40px;
+  padding-bottom: 120px;
+}
+
+.projects-grid img {
+  height: 340px!important;
 }
 
 .resume-right-col {
@@ -74,6 +126,7 @@
   justify-content: center;
   padding-top: 2em;
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkGlcKCmrqop4TO95xrTKy6RVyvGUokuvcie62RrbiJs_O0PL');
+  margin-bottom: 20px
 }
 
 .contact-grid {
@@ -82,10 +135,11 @@
   width: 100%;
   height: 550px;
   color: black;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
-.contact-grid h2 {
+.contact-grid h1 {
+  padding: 50px;
   font-family: 'Fredericka the Great', cursive;
 }
 
@@ -97,7 +151,8 @@
 
 .contact-list i {
   font-size: 66px;
-  padding-right: 5rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 
 .profile-img {
@@ -166,14 +221,8 @@
 }
 
 .social-links i {
-  font-size: 5em;
+  font-size: 60px;
   width: 40%;
-}
-
-.border-links {
-  max-width: 100%;
-  margin-top: 8%;
-  margin-bottom: 5%;
 }
 
 .card {
@@ -276,14 +325,3 @@
 .each-fade .image-container img {
   width: 70%;
 }
-
-.resume-pic {
-  height: 350px;
-  width: 460px
-}
-
-/* @media only screen and (max-width: 600px) {
-  .resume-pic {
-    width: 400px;
-  }
-} */

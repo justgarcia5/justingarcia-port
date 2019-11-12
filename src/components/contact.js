@@ -6,19 +6,18 @@ import Peru from '../images/peru.jpeg'
 class Contact extends Component {
   render() {
     return(
-      <div className="contact-body">
+      <div className="container">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Justin Garcia</h2>
+            <h1>Justin Garcia</h1>
             <img
               src={Peru}
-              className="peru-pic"
+              className="img-fluid peru-pic"
               alt="avatar"
             />
           </Cell>
           <Cell col={6}>
-            <h2>Contact Me</h2>
-            <hr />
+            <h1>Contact Me</h1>
             <div className="contact-list">
               <List>
                 <ListItem>

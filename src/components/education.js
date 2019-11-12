@@ -5,7 +5,7 @@ class Education extends Component {
     return(
       <React.Fragment>
         <h4><b>{this.props.schoolName} / {this.props.startYear} - {this.props.endYear}</b></h4>
-        <ul>{this.props.schoolDescription}</ul>
+        {this.props.schoolDescription}
       </React.Fragment>
     )
   }

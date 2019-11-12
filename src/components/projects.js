@@ -1,7 +1,6 @@
 import React from 'react'
 import {
   Card,
-  CardText,
   CardActions,
   Button,
   Tabs,
@@ -32,7 +31,7 @@ class Projects extends React.Component {
       return (
         <div className="projects-grid">
           <Card className="card" shadow={5}>
-            <img src={tictactoe} alt="tic-tac-toe" className='project-picture' />
+            <img src={tictactoe} alt="tic-tac-toe" className='img-thumbnail project-picture' />
             <CardActions border>
               <a href="https://github.com/justgarcia5/tic-tac-toe" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
@@ -41,7 +40,7 @@ class Projects extends React.Component {
           </Card>
 
           <Card className="card" shadow={5}>
-            <img src={toolShare2} alt="toolshare-img" className='project-picture' />
+            <img src={toolShare2} alt="toolshare-img" className='img-thumbnail project-picture' />
             <CardActions border>
               <a href="https://github.com/team-pacific-drive/ToolShare" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
@@ -50,7 +49,7 @@ class Projects extends React.Component {
           </Card>
 
           <Card className="card" shadow={5}>
-            <img src={recipeApp} alt="toolshare-img" className='project-picture' />
+            <img src={recipeApp} alt="toolshare-img" className='img-thumbnail project-picture' />
             <CardActions border>
               <a href="https://github.com/justgarcia5/recipe-app" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
@@ -63,7 +62,7 @@ class Projects extends React.Component {
 
           <Card className="card" shadow={5}>
 
-            <img src={weather} alt="weather" className='project-picture' />
+            <img src={weather} alt="weather" className='img-thumbnail project-picture' />
             <CardActions border>
               <a href="https://github.com/justgarcia5/weather_app" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
@@ -79,10 +78,8 @@ class Projects extends React.Component {
       return (
         <div className="projects-grid">
           <Card className="card" shadow={5}>
-            <img src={Blog} alt="blog-screenshot" className='project-picture' />
-            <CardText>
+            <img src={Blog} alt="blog-screenshot" className='img-thumbnail project-picture' />
 
-            </CardText>
             <CardActions border>
               <a href="https://github.com/justgarcia5/blog-app" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
@@ -94,9 +91,8 @@ class Projects extends React.Component {
           </Card>
 
           <Card className="card" shadow={5}>
-            <img src={Zeal} alt="zeal-logo" className='project-picture' />
-            <CardText>
-            </CardText>
+            <img src={Zeal} alt="zeal-logo" className='img-thumbnail project-picture' />
+
             <CardActions border>
               <a href="https://github.com/CodingZeal/initiative-tracker" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
@@ -105,9 +101,8 @@ class Projects extends React.Component {
           </Card>
 
           <Card className="card" shadow={5}>
-            <img src={contacts} alt="zeal-logo" className='project-picture' />
-            <CardText>
-            </CardText>
+            <img src={contacts} alt="zeal-logo" className='img-thumbnail project-picture' />
+
             <CardActions border>
               <a href="https://github.com/justgarcia5/contact-list" rel="noopener noreferrer"    target="_blank">
                 <Button colored>GitHub</Button>
