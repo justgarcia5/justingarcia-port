@@ -34,7 +34,9 @@ class Resume extends Component {
               <p>justgarcia5@gmail.com</p>
               <hr/>
             </div>
-            <PdfDocs />
+            <PdfDocs
+              width={400}
+            />
           </Cell>
 
           <Cell className="resume-right-col" col={7} shadow={20}>

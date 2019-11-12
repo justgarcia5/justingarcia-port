@@ -3,10 +3,8 @@ import './App.css';
 import Routes from './components/routes';
 // import scrollToComponent from 'react-scroll-to-component';
 
-import Nav from './components/navbar'
-// import Projects from './components/projects'
-// import LandingPage from './components/landingpage'
-
+import Nav from './components/Nav'
+import Projects from './components/projects'
 
 class App extends Component {
   render() {

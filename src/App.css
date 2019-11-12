@@ -4,7 +4,20 @@
   background-position: center;
   background-attachment: fixed;
   /* position: fixed!important; */
-  width: 100%!important;
+}
+
+.mr-auto Link {
+  text-align: right!important;
+  justify-content: right!important;
+}
+
+.nav-background h3 {
+  font-family: 'Fredericka the Great', cursive;
+}
+.nav-background  {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 17px;
+  justify-content: right;
 }
 
 .skills-comp i {
@@ -236,13 +249,17 @@
 }
 
 .docs {
-  justify-content: space-between;
   text-align: center;
+
+}
+
+.docs i {
+  text-decoration: none!important;
 }
 
 .docs a {
   color: rgb(122, 19, 19);
-  text-decoration: none;
+  text-decoration: none!important;
   font-size: 6em;
 }
 
