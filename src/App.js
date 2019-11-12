@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import Routes from './components/routes';
+// import scrollToComponent from 'react-scroll-to-component';
 
 import Nav from './components/navbar'
-import Projects from './components/projects'
+// import Projects from './components/projects'
+// import LandingPage from './components/landingpage'
+
 
 class App extends Component {
   render() {
@@ -13,7 +16,6 @@ class App extends Component {
         <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet"/>
         <Nav />
         <Routes />
-        {/* <Projects /> */}
       </div>
     );
   }

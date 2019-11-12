@@ -5,7 +5,7 @@ class Experience extends Component {
     return(
       <React.Fragment>
         <h4><b>{this.props.jobName}, {this.props.jobTitle} / {this.props.startYear} - {this.props.endYear}</b></h4>
-        <ul>{this.props.jobDescription}</ul>
+        {this.props.jobDescription}
       </React.Fragment>
     )
   }
