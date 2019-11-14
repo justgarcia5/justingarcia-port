@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Routes from './components/routes';
-// import scrollToComponent from 'react-scroll-to-component';
 
 import Nav from './components/Nav'
-import Projects from './components/projects'
 
 class App extends Component {
   render() {
